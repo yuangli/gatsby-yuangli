@@ -1,0 +1,98 @@
+.c-exit{
+    margin: 3rem 2rem;
+    width: 3rem;
+}
+
+.c-title{
+    display: initial;
+    
+    &__feature-img{
+        margin: auto;
+        width: 60%;
+    }
+    
+    &__text{
+        padding: 1rem;
+        margin: auto;
+        width: 90%;
+    }
+
+    & ul{
+        margin: .5rem auto;
+    }
+
+    &__buttons{
+        margin: auto;
+        display: flex;
+        // justify-content: space-between;
+    }
+}
+
+.c-pagination{
+    margin: auto 0;
+    width: 4rem;
+    display: flex;
+    // position: fixed;
+    top: 1rem;
+    right: 1rem;
+
+    & > :first-child {
+        margin-right: 1rem;
+    }
+}
+
+.l-decription{
+    width: 90%;
+    margin: 0 auto;    
+}
+
+.l-decription > *{
+    line-height: 1.5;
+    margin: 4rem 0;
+}
+
+
+@media screen and (min-width: 720px){
+    .c-title{
+        display: flex;
+        width: 80%;
+        &__feature-img{
+            margin: auto 1.5rem;
+            width: 100%;
+        }
+        &__text{
+            width: 100%;
+        }
+        &__buttons{
+            margin: auto;
+            display: flex;
+        }
+    }
+
+    .l-decription{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1080px){
+    .c-title__feature-img > img{
+        margin: auto;
+        // width: 100%;
+    }
+    .c-title{
+        width: 60%;
+    }
+    // .c-title > * {
+    //     margin: 0 1.5rem;
+    // }
+
+    .l-decription{
+        width: 50%;
+        }
+
+    .c-exit{
+        top: 0;
+        position: fixed;
+    }
+
+}

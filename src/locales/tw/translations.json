@@ -1,0 +1,92 @@
+{
+  "site": {
+    "Gatsby Default Starter": "李雨昂作品",
+    "footer": "使用 Gatsby 建置"
+  },
+  "home": {
+    "iam": "你好我是",
+    "name": "李雨昂",
+    "iama": "我的职位是",
+    "title": "全栈设计师",
+    "mymissionis": "我的设计理念是",
+    "mission": "我将艺术与技术相结合，为人们的意识创造了非常规的体验，并为跨文化，民族和无障碍类型的用户提供了一致的体验。",
+    "link": "進入第2頁",
+    "contactme": "联系我",
+    "resume": "个人简历"
+  },
+  "gs1": {
+    "name": "gs1",
+    "title": "GS1 Global",
+    "position": "UI / UX 设计师",
+    "abstract": "担任eoko.inc的首席UI / UX设计师的实习生。我正在帮助公司改善eoko应用程序和CloutQuiz应用程序的UI和UX。",
+    "categories": [
+      "UI/UX",
+      "平面设计",
+      "开发"
+    ],
+    "button1": "Clout Quiz",
+    "button2": "eoko",
+    "link": "进入第2页",
+    "paragraph": "我于2018年10月加入eoko.inc，担任UI / UX首席设计师，并帮助构建Web应用程序CloutQuiz App和eoko App的前端开发。我们使用敏捷的工作流程，并与我们的业务和开发团队紧密结合。我的职责是设计和重新设计我们的公司品牌，组件，界面和应用程序的用户体验，并参加会议和活动。我从经验中学到并实践了设计和开发方面的新技术。"
+  },
+  "eoko": {
+    "name": "eoko",
+    "title": "eoko.inc",
+    "position": "UI / UX 设计师",
+    "abstract": "担任eoko.inc的首席UI / UX设计师的实习生。我正在帮助公司改善eoko应用程序和CloutQuiz应用程序的UI和UX。",
+    "categories": [
+      "UI/UX",
+      "平面设计",
+      "开发"
+    ],
+    "button1": "Clout Quiz",
+    "button2": "eoko",
+    "link": "进入第2页",
+    "paragraph": "我于2018年10月加入eoko.inc，担任UI / UX首席设计师，并帮助构建Web应用程序CloutQuiz App和eoko App的前端开发。我们使用敏捷的工作流程，并与我们的业务和开发团队紧密结合。我的职责是设计和重新设计我们的公司品牌，组件，界面和应用程序的用户体验，并参加会议和活动。我从经验中学到并实践了设计和开发方面的新技术。"
+  },
+  "tripple": {
+    "name": "tripple",
+    "title": "tripple",
+    "position": "UI / UX 设计师",
+    "abstract": "担任eoko.inc的首席UI / UX设计师的实习生。我正在帮助公司改善eoko应用程序和CloutQuiz应用程序的UI和UX。",
+    "categories": [
+      "UI/UX",
+      "平面设计",
+      "开发"
+    ],
+    "button1": "Clout Quiz",
+    "button2": "eoko",
+    "link": "进入第2页",
+    "paragraph": "我于2018年10月加入eoko.inc，担任UI / UX首席设计师，并帮助构建Web应用程序CloutQuiz App和eoko App的前端开发。我们使用敏捷的工作流程，并与我们的业务和开发团队紧密结合。我的职责是设计和重新设计我们的公司品牌，组件，界面和应用程序的用户体验，并参加会议和活动。我从经验中学到并实践了设计和开发方面的新技术。"
+  },
+  "busbuddy": {
+    "name": "busbuddy",
+    "title": "busbuddy",
+    "position": "UI / UX 设计师",
+    "abstract": "担任eoko.inc的首席UI / UX设计师的实习生。我正在帮助公司改善eoko应用程序和CloutQuiz应用程序的UI和UX。",
+    "categories": [
+      "UI/UX",
+      "平面设计",
+      "开发"
+    ],
+    "button1": "Clout Quiz",
+    "button2": "eoko",
+    "link": "进入第2页",
+    "paragraph": "我于2018年10月加入eoko.inc，担任UI / UX首席设计师，并帮助构建Web应用程序CloutQuiz App和eoko App的前端开发。我们使用敏捷的工作流程，并与我们的业务和开发团队紧密结合。我的职责是设计和重新设计我们的公司品牌，组件，界面和应用程序的用户体验，并参加会议和活动。我从经验中学到并实践了设计和开发方面的新技术。"
+  },
+  "schmearit": {
+    "name": "schmearit",
+    "title": "schmearit",
+    "position": "UI / UX 设计师",
+    "abstract": "担任eoko.inc的首席UI / UX设计师的实习生。我正在帮助公司改善eoko应用程序和CloutQuiz应用程序的UI和UX。",
+    "categories": [
+      "UI/UX",
+      "平面设计",
+      "开发"
+    ],
+    "button1": "Clout Quiz",
+    "button2": "eoko",
+    "link": "进入第2页",
+    "paragraph": "我于2018年10月加入eoko.inc，担任UI / UX首席设计师，并帮助构建Web应用程序CloutQuiz App和eoko App的前端开发。我们使用敏捷的工作流程，并与我们的业务和开发团队紧密结合。我的职责是设计和重新设计我们的公司品牌，组件，界面和应用程序的用户体验，并参加会议和活动。我从经验中学到并实践了设计和开发方面的新技术。"
+  }
+}

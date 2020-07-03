@@ -1,0 +1,47 @@
+$MainColorscheme: #2D363F;
+$SecondaryColoscheme: #216739;
+
+$EokoColorScheme: #F87C1C;
+$SchmearItColorScheme: #F46B40;
+$BusBuddyColorScheme: #4482C4;
+$PersonalBrandingColorScheme: #444C57;
+$MichelangeloColorScheme: #ADD8E6;
+$WordpressColorScheme: #000;
+$MeteoriodColorScheme: #C6BFE6;
+$RecipeColorScheme: #FC422E;
+$CoachellaColorScheme: #978989;
+$SportsIllustratedColorScheme: #F4BC0E;
+
+.c-intro{
+    width: 42.50%;
+    margin: 0 auto;
+    &__p{
+        color: #9B9B9B;
+    }
+
+    &__h1{
+        color: #2D363F;
+    }
+
+    &__h2{
+        color: #808080;
+    }
+
+    &__h3{
+        color: #2D363F;
+    }
+
+    & > div{
+       margin: 2rem 0; 
+    }
+
+}
+
+.c-cate_button{
+    &--contactme{
+        background-color: #216739;
+    }
+    &--resume{
+        background-color: #444C57;
+    }
+}

@@ -1,0 +1,92 @@
+{
+  "site": {
+    "Gatsby Default Starter": "Yuang's Portfolio",
+    "footer": "Built with Gatsby"
+  },
+  "home": {
+    "iam": "Hi, I am",
+    "name": "Yuang Li",
+    "iama": "I am a",
+    "title": "Full-Stack Designer",
+    "mymissionis": "My mission is",
+    "mission": "Combining art and technology, I create unconventional experiences for people's consciousness as well as deliver consistent experiences for users across the cultures, nations and types of accessibility.",
+    "link": "Go to page 2",
+    "contactme": "Contact Me",
+    "resume": "Resume"
+  },
+  "gs1": {
+    "name": "gs1",
+    "title": "gs1",
+    "position": "UI / UX Design Intern",
+    "abstract": "Intern as a lead UI / UX Designer for eoko.inc. I am helping the company to improve the UI and UX of both eoko app and CloutQuiz app.",
+    "categories": [
+      "UI/UX",
+      "Graphic",
+      "Dev"
+    ],
+    "button1": "Clout Quiz",
+    "button2": "eoko",
+    "link": "Go back to the homepage",
+    "paragraph": "I joined eoko.inc in October 2018 as a lead UI / UX designer as well as helping to build the front end development of the web apps, CloutQuiz App and eoko App. We use an agile workflow and incorporate closely with our business and development teams. My responsibility is designing and redesigning our branding of the company, components, interfaces and user experience for the apps, and participate in the meetings and events. I learnt and practiced new technologies on both design and development aspects from the experience."
+  },
+  "eoko": {
+    "name": "eoko",
+    "title": "eoko",
+    "position": "UI / UX Design Intern",
+    "abstract": "Intern as a lead UI / UX Designer for eoko.inc. I am helping the company to improve the UI and UX of both eoko app and CloutQuiz app.",
+    "categories": [
+      "UI/UX",
+      "Graphic",
+      "Dev"
+    ],
+    "button1": "Clout Quiz",
+    "button2": "eoko",
+    "link": "Go back to the homepage",
+    "paragraph": "I joined eoko.inc in October 2018 as a lead UI / UX designer as well as helping to build the front end development of the web apps, CloutQuiz App and eoko App. We use an agile workflow and incorporate closely with our business and development teams. My responsibility is designing and redesigning our branding of the company, components, interfaces and user experience for the apps, and participate in the meetings and events. I learnt and practiced new technologies on both design and development aspects from the experience."
+  },
+  "tripple": {
+    "name": "tripple",
+    "title": "tripple",
+    "position": "UI / UX Design Intern",
+    "abstract": "Intern as a lead UI / UX Designer for eoko.inc. I am helping the company to improve the UI and UX of both eoko app and CloutQuiz app.",
+    "categories": [
+      "UI/UX",
+      "Graphic",
+      "Dev"
+    ],
+    "button1": "Clout Quiz",
+    "button2": "eoko",
+    "link": "Go back to the homepage",
+    "paragraph": "I joined eoko.inc in October 2018 as a lead UI / UX designer as well as helping to build the front end development of the web apps, CloutQuiz App and eoko App. We use an agile workflow and incorporate closely with our business and development teams. My responsibility is designing and redesigning our branding of the company, components, interfaces and user experience for the apps, and participate in the meetings and events. I learnt and practiced new technologies on both design and development aspects from the experience."
+  },
+  "busbuddy": {
+    "name": "busbuddy",
+    "title": "busbuddy",
+    "position": "UI / UX Design Intern",
+    "abstract": "Intern as a lead UI / UX Designer for eoko.inc. I am helping the company to improve the UI and UX of both eoko app and CloutQuiz app.",
+    "categories": [
+      "UI/UX",
+      "Graphic",
+      "Dev"
+    ],
+    "button1": "Clout Quiz",
+    "button2": "eoko",
+    "link": "Go back to the homepage",
+    "paragraph": "I joined eoko.inc in October 2018 as a lead UI / UX designer as well as helping to build the front end development of the web apps, CloutQuiz App and eoko App. We use an agile workflow and incorporate closely with our business and development teams. My responsibility is designing and redesigning our branding of the company, components, interfaces and user experience for the apps, and participate in the meetings and events. I learnt and practiced new technologies on both design and development aspects from the experience."
+  },
+  "schmearit": {
+    "name": "schmearit",
+    "title": "schmearit",
+    "position": "UI / UX Design Intern",
+    "abstract": "Intern as a lead UI / UX Designer for eoko.inc. I am helping the company to improve the UI and UX of both eoko app and CloutQuiz app.",
+    "categories": [
+      "UI/UX",
+      "Graphic",
+      "Dev"
+    ],
+    "button1": "Clout Quiz",
+    "button2": "eoko",
+    "link": "Go back to the homepage",
+    "paragraph": "I joined eoko.inc in October 2018 as a lead UI / UX designer as well as helping to build the front end development of the web apps, CloutQuiz App and eoko App. We use an agile workflow and incorporate closely with our business and development teams. My responsibility is designing and redesigning our branding of the company, components, interfaces and user experience for the apps, and participate in the meetings and events. I learnt and practiced new technologies on both design and development aspects from the experience."
+  }
+}
