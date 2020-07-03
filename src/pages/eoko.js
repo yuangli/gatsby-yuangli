@@ -15,8 +15,8 @@ const EokoPage = () => {
             <SEO title="Page two" />
             <div className="c-title">
                 <div className="c-title__feature-img">
-                    {/* <img src="../images/eoko-logo.png" /> */}
-                    <img src="../images/eoko-logo.png" />
+                    <img src={require('../images/eoko-logo.png')} />
+
                 </div>
                 <div className="c-title__text">
                     <h1 className="c-h1__eoko">{t('eoko.title')}</h1>
@@ -33,10 +33,21 @@ const EokoPage = () => {
                     <a href="https://itunes.apple.com/us/app/%C3%AAoko/id1297963223"
                         className="c-cate c-cate_button c-cate_button--eoko">{t('eoko.button2')}</a>
                 </div>
-                {/* <Link to="/">{t('page2.link')}</Link> */}
-                {/* <p>{t('eoko.paragraph')}</p> */}
             </div>
-        </div >
+            <div className="l-decription">
+                <img src={require('../images/eoko_mock_up.jpg')} className="c-title-image wow fadeInUp" ></img>
+                {t('eoko.content').split('\n').map(function (item, key) {
+                    return (
+                        <p kclassName="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+            </div>
+            {/* <Link to="/">{t('page2.link')}</Link> */}
+            {/* <p>{t('eoko.paragraph')}</p> */}
+        </div>
     )
 }
 export default EokoPage

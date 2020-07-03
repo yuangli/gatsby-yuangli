@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
@@ -8,14 +8,24 @@ import { useTranslation } from "react-i18next"
 
 import '../styles/home.scss'
 
-const IndexPage = () => {
-  // const { t } = useTranslation()
+const IndexPage = (props) => {
+  const { t } = useTranslation();
+  const [hovered, setHovered] = React.useState(false);
+
+  function toggleHover() {
+    setHovered(!hovered);
+  }
+
 
   return (
     <div className="d">
       <SEO title="Home" />
 
       <div className="c-intro">
+
+        <h1 className={hovered ? 'pulse animated' : ''}>
+          djsakldsa
+        </h1>
         <div>
           <p className="c-intro__p">{t('home.iam')}</p>
           <h1 className="c-intro__h1">{t('home.name')}</h1>
@@ -56,6 +66,10 @@ const IndexPage = () => {
             logo={require('../images/gs1-logo.png')}
             cover={require('../images/gs1-cover.png')} /> */}
           <Card
+            onMouseEnter={toggleHover.bind(this)}
+            onMouseLeave={toggleHover.bind(this)}
+            hovered={hovered}
+            toggleHover={toggleHover}
             name={t('eoko.name')}
             title={t('eoko.title')}
             text={t('eoko.abstract')}
@@ -101,7 +115,7 @@ const IndexPage = () => {
       </div>
 
 
-    </div>
+    </div >
   )
 }
 

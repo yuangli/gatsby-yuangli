@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => (
   <header>
     <div className="l-navbar">
       <div className="c-logo">
-        <a className="c-logo__image" href="index.html#top">
+        <a className="c-logo__image" href="/">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1811.75 1863.99">
             <path className="cls-1"
               d="M1139.54,883.36S794.83,909.12,794.83,509.82,1139.54,123.4,1139.54,123.4s363.87,6.44,351.1,380S1254.45,870.48,1139.54,883.36Z" />
