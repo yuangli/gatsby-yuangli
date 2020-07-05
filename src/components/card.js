@@ -3,13 +3,6 @@ import '../styles/card.scss'
 import { Link } from 'gatsby'
 
 const Card = props => {
-    // function handleChange(event) {
-    //     // Here, we invoke the callback with the new value
-    //     props.onChange(event.target.value);
-    // }
-
-    console.log(props.hovered);
-
     return (
 
         <div className="c-box">
@@ -19,7 +12,7 @@ const Card = props => {
                 {/* <img src={props.cover} /> */}
                 <div onMouseEnter={props.toggleHover}
                     onMouseLeave={props.toggleHover}
-                    className="c-box__image c-box__image--general c-box__image--eoko">
+                    className={props.hovered ? 'c-box__image c-box__image--general c-box__image--eoko js-is-hovered' : 'c-box__image c-box__image--general c-box__image--eoko js-is-nohovered'}>
                 </div>
             </Link>
             <div className="c-box__text">

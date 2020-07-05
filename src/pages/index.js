@@ -10,12 +10,8 @@ import '../styles/home.scss'
 
 const IndexPage = (props) => {
   const { t } = useTranslation();
-  const [hovered, setHovered] = React.useState(false);
 
-  function toggleHover() {
-    setHovered(!hovered);
-  }
-
+  console.log(props.hovered);
 
   return (
     <div className="d">
@@ -23,9 +19,6 @@ const IndexPage = (props) => {
 
       <div className="c-intro">
 
-        <h1 className={hovered ? 'pulse animated' : ''}>
-          djsakldsa
-        </h1>
         <div>
           <p className="c-intro__p">{t('home.iam')}</p>
           <h1 className="c-intro__h1">{t('home.name')}</h1>
@@ -66,10 +59,8 @@ const IndexPage = (props) => {
             logo={require('../images/gs1-logo.png')}
             cover={require('../images/gs1-cover.png')} /> */}
           <Card
-            onMouseEnter={toggleHover.bind(this)}
-            onMouseLeave={toggleHover.bind(this)}
-            hovered={hovered}
-            toggleHover={toggleHover}
+            hovered={props.hovered}
+            toggleHover={props.toggleHover}
             name={t('eoko.name')}
             title={t('eoko.title')}
             text={t('eoko.abstract')}

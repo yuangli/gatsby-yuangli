@@ -32,7 +32,7 @@ const LanguageMenu = (props) => {
     }));
   }
 
-  return(
+  return (
     <Select
       value={values.language}
       onChange={(e) => handleChange(e)}

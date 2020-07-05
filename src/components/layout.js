@@ -5,13 +5,14 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
+import React, { useState } from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { withTrans } from '../i18n/withTrans'
 
 import Header from "./header"
 import "./layout.css"
+
 
 const Layout = ({ children, t, i18n }) => {
   const data = useStaticQuery(graphql`
@@ -24,14 +25,26 @@ const Layout = ({ children, t, i18n }) => {
     }
   `)
 
+  const [hovered, setHovered] = React.useState(false);
+
+  function toggleHover() {
+    setHovered(!hovered);
+  }
+
   const translatedTitle = t(`site.${data.site.siteMetadata.title}`)
-  console.log(translatedTitle)
+
+  const childrenWithProps = React.Children.map(children,
+    (child) => React.cloneElement(child, { toggleHover: toggleHover, hovered: hovered }));
+
   return (
     <>
-      <Header siteTitle={translatedTitle} />
+      <Header siteTitle={translatedTitle}
+        toggleHover={toggleHover}
+        hovered={hovered}
+      />
       <div>
         <main>
-          {children}
+          {childrenWithProps}
         </main>
         <footer>
           © {new Date().getFullYear()}, {t(`site.footer`)}
