@@ -62,10 +62,12 @@ const IndexPage = (props) => {
             hovered={props.hovered}
             toggleHover={props.toggleHover}
             name={t('eoko.name')}
+            category={t('eoko.categories')}
             title={t('eoko.title')}
             text={t('eoko.abstract')}
             logo={require('../images/eoko-logo.png')}
             cover={require('../images/eoko_mock_up.jpg')} />
+
           {/* <Card
             name={t('tripple.name')}
             title={t('tripple.title')}
@@ -77,31 +79,13 @@ const IndexPage = (props) => {
             title={t('busbuddy.title')}
             text={t('busbuddy.abstract')}
             logo={require('../images/busbuddy-logo.png')}
-            cover={require('../images/busbuddy-cover.png')} /> */}
-          <Card
+            cover={require('../images/busbuddy-cover.png')} />
+            <Card
             name={t('schmearit.name')}
             title={t('schmearit.title')}
             text={t('schmearit.abstract')}
             logo={require('../images/schmearit-logo.jpg')}
-            cover={require('../images/schmearit-cover.jpg')} />
-          <Card
-            name={t('schmearit.name')}
-            title={t('schmearit.title')}
-            text={t('schmearit.abstract')}
-            logo={require('../images/schmearit-logo.jpg')}
-            cover={require('../images/schmearit-cover.jpg')} />
-          <Card
-            name={t('schmearit.name')}
-            title={t('schmearit.title')}
-            text={t('schmearit.abstract')}
-            logo={require('../images/schmearit-logo.jpg')}
-            cover={require('../images/schmearit-cover.jpg')} />
-          <Card
-            name={t('schmearit.name')}
-            title={t('schmearit.title')}
-            text={t('schmearit.abstract')}
-            logo={require('../images/schmearit-logo.jpg')}
-            cover={require('../images/schmearit-cover.jpg')} />
+            cover={require('../images/schmearit-cover.jpg')} />*/}
         </div>
       </div>
 

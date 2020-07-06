@@ -8,11 +8,12 @@ li{
 
 
 .l-navbar{
-    position: sticky;
+    position: fixed;
     // transition-duration: .5s;
     display: flex;
     justify-content: space-between;
     top: 0;
+    width: 90%;
     z-index: 99;
 }
 
@@ -84,7 +85,7 @@ li{
 
 @media screen and (min-width: 1080px){
     .l-navbar{
-        position: sticky;
+        position: fixed;
     }
 
 }

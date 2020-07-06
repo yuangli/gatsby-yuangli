@@ -1,5 +1,5 @@
 *{
-    /* Border for developing */
+    // /* Border for developing */
     // border-style: solid;
     // border-width: 1px;
     // border-color: rgb(0, 80, 252);
@@ -96,6 +96,46 @@
     color: #97989D;
 }
 
+.js-is-hovered{
+    > .c-color-filter{
+        background: none;
+    }
+    
+    > .c-box__image--general{
+        filter: none;
+    }
+
+
+    ~ .c-box__text{
+        animation-name: fadeInLeft;
+        animation-duration: .6s;
+        animation-delay: .2s;
+        animation-fill-mode: forwards;  
+    }
+
+    ~ .c-box__cates{
+        animation-name: fadeInRight;
+        animation-duration: .6s;
+        animation-delay: .2s;
+        animation-fill-mode: forwards;  
+    }
+}
+
+.js-is-nohovered{
+
+    ~ .c-box__text{
+        animation-name: fadeInLeftR;
+        animation-duration: .3s;
+        animation-fill-mode: forwards;  
+    }
+
+    ~ .c-box__cates{
+        animation-name: fadeInRightR;
+        animation-duration: .3s;
+        animation-fill-mode: forwards;  
+    }
+}
+
 // .c-box__cates > img{
 //     max-height: 10rem;
 // }
@@ -122,6 +162,64 @@
         background-color: #F87C1C;
     }
 }
+ // ANIMATIONS
+
+ @keyframes fadeInRight{
+    from{
+        visibility: hidden;
+       display: none;
+       opacity: 0;
+       right: 3rem;
+
+    }
+    to {
+        visibility: visible;
+        opacity: 1;
+        right: 0rem;
+    }
+}
+
+@keyframes fadeInLeft{
+   from{
+       visibility: hidden;
+       opacity: 0;
+       left: 3rem;
+
+   }
+   to {
+       visibility: visible;
+       opacity: 1;
+       left: 0rem;
+   }
+}
+
+@keyframes fadeInRightR{
+    from{
+        visibility: visible;
+        opacity: 1;
+        right: 0rem;
+    }
+    to {
+        visibility: hidden;
+        display: none;
+        opacity: 0;
+        right: 3rem;
+    }
+}
+
+@keyframes fadeInLeftR{
+   from{
+        visibility: visible;
+        opacity: 1;
+        left: 0rem;
+   }
+   to {
+       visibility: hidden;
+       opacity: 0;
+       left: 3rem;
+   }
+}
+
 
 @media screen and (min-width: 720px){
     #intro{
@@ -170,27 +268,6 @@
             left: 3rem;    
             width: 20%;
             line-height: 1.5;
-        }
-    
-        &__image:hover{
-            filter: none;
-        }
-        
-        &__image:hover ~ &__text{
-            visibility: visible;
-            animation-name: fadeInLeft;
-            animation-duration: .6s;
-            animation-delay: .2s;
-            animation-fill-mode: forwards;  
-        }
-        
-        &__image:hover ~ &__cates{
-            transition: 1s;
-            visibility: visible;
-            animation-name: fadeInRight;
-            animation-duration: .6s;
-            animation-delay: .2s;
-            animation-fill-mode: forwards;  
         }
     }
 

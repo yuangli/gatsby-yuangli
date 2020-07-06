@@ -1,20 +1,16 @@
-.c-exit{
-    margin: 3rem 2rem;
-    width: 3rem;
+.l-post{
+    width: 90%;
+    margin: 0 auto;;
 }
-
 .c-title{
-    display: initial;
     
     &__feature-img{
         margin: auto;
-        width: 60%;
+        width: 40%;
     }
     
     &__text{
         padding: 1rem;
-        margin: auto;
-        width: 90%;
     }
 
     & ul{
@@ -41,11 +37,6 @@
     }
 }
 
-.l-decription{
-    width: 90%;
-    margin: 0 auto;    
-}
-
 .l-decription > *{
     line-height: 1.5;
     margin: 4rem 0;
@@ -55,7 +46,7 @@
 @media screen and (min-width: 720px){
     .c-title{
         display: flex;
-        width: 80%;
+        width: 90%;
         &__feature-img{
             margin: auto 1.5rem;
             width: 100%;
@@ -68,8 +59,7 @@
             display: flex;
         }
     }
-
-    .l-decription{
+    .l-post{
         width: 70%;
     }
 }
@@ -80,19 +70,18 @@
         // width: 100%;
     }
     .c-title{
-        width: 60%;
+        width: 100%;
     }
     // .c-title > * {
     //     margin: 0 1.5rem;
     // }
 
-    .l-decription{
-        width: 50%;
-        }
-
     .c-exit{
         top: 0;
         position: fixed;
+    }
+    .l-post{
+        width: 50%;
     }
 
 }
