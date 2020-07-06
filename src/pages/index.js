@@ -11,8 +11,6 @@ import '../styles/home.scss'
 const IndexPage = (props) => {
   const { t } = useTranslation();
 
-  console.log(props.hovered);
-
   return (
     <div className="d">
       <SEO title="Home" />
@@ -65,27 +63,33 @@ const IndexPage = (props) => {
             category={t('eoko.categories')}
             title={t('eoko.title')}
             text={t('eoko.abstract')}
-            logo={require('../images/eoko-logo.png')}
-            cover={require('../images/eoko_mock_up.jpg')} />
+            logo={require('../images/eoko_logo.png')}
+            cover={require('../images/eoko_cover.jpg')} />
 
           {/* <Card
             name={t('tripple.name')}
             title={t('tripple.title')}
             text={t('tripple.abstract')}
             logo={require('../images/tripple-logo.png')}
-            cover={require('../images/tripple-cover.png')} />
+            cover={require('../images/tripple-cover.png')} /> */}
           <Card
+            hovered={props.hovered}
+            toggleHover={props.toggleHover}
             name={t('busbuddy.name')}
+            category={t('busbuddy.categories')}
             title={t('busbuddy.title')}
             text={t('busbuddy.abstract')}
-            logo={require('../images/busbuddy-logo.png')}
-            cover={require('../images/busbuddy-cover.png')} />
-            <Card
+            logo={require('../images/busbuddy_logo.png')}
+            cover={require('../images/busbuddy_cover.png')} />
+          <Card
+            hovered={props.hovered}
+            toggleHover={props.toggleHover}
             name={t('schmearit.name')}
+            category={t('busbuddy.categories')}
             title={t('schmearit.title')}
             text={t('schmearit.abstract')}
-            logo={require('../images/schmearit-logo.jpg')}
-            cover={require('../images/schmearit-cover.jpg')} />*/}
+            logo={require('../images/schmearit_logo.jpg')}
+            cover={require('../images/schmearit_cover.jpg')} />
         </div>
       </div>
 

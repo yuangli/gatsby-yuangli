@@ -71,7 +71,13 @@
     }
     &--eoko{
 
-        background-image: url('../images/eoko_mock_up.jpg');      
+        background-image: url('../images/eoko_cover.jpg');      
+    }
+    &--busbuddy{
+        background-image: url('../images/busbuddy_cover.png');      
+    }
+    &--schmearit{
+        background-image: url('../images/schmearit_cover.jpg');      
     }
 }
 
@@ -88,8 +94,13 @@
     position: relative;
     display: block;
 }
-.c-h1__eoko{
-    color: #F87C1C; 
+.c-h1{
+    &__eoko{
+        color: #F87C1C; 
+    }
+    &__busbuddy{
+        color: green;
+    }
 }
 
 .c-h3{
@@ -160,6 +171,14 @@
     
     &_button--eoko{
         background-color: #F87C1C;
+    }
+
+    &_button--busbuddy{
+        background-color: green;
+    }
+
+    &_button--schmearit{
+        background-color: green;
     }
 }
  // ANIMATIONS
