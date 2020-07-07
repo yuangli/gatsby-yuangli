@@ -18,16 +18,15 @@ const Card = (props) => {
     return (
 
         <div className="c-box"
-            onMouseLeave={toggleThisHover}>
+            onMouseLeave={props.hovered ? toggleThisHover : null}>
 
             <Link to={props.name}
                 onClick={toggleThisHover}
                 className={hoveredThis ? 'c-box__image page1 js-is-hovered' : 'c-box__image page1 js-is-nohovered'}
-            // className="c-box__image page1"
             >
                 {/* <div className="c-box__image--general c-box__image--eoko"></div> */}
                 {/* <img src={props.cover} /> */}
-                <div onMouseEnter={toggleThisHover}
+                <div onMouseEnter={props.hovered ? null : toggleThisHover}
                     className={'c-box__image--general c-box__image--' + props.name}>
                     {/* className="c-box__image--general c-box__image--eoko"> */}
                 </div>
@@ -54,7 +53,7 @@ const Card = (props) => {
                     }
 
                 </ul>
-                <Link to={props.name} onClick={toggleThisHover} className={'c-cate c-cate_button c-cate_button--' + props.name}>ViewMore</Link>
+                <Link to={props.name} onClick={props.hovered ? toggleThisHover : null} className={'c-cate c-cate_button c-cate_button--' + props.name}>ViewMore</Link>
 
             </div>
         </div >

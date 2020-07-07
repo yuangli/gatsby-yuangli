@@ -55,9 +55,16 @@ html {
   src: url("../fonts/方正姚体简体.ttf");
 }
 
+@font-face {
+  font-family: "HYWenHei";
+  src: url("../fonts/SourceHanSerifTC-Medium.otf");
+}
+
+
+
 
 *{
-  font-family: 'Adelon-Light', 'YaoTi';
+  font-family: 'Adelon-Light', 'HYWenHei';
   margin: 0;
   padding: 0;
   box-sizing: border-box;

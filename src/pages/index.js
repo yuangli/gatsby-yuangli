@@ -50,12 +50,15 @@ const IndexPage = (props) => {
       </div>
       <div className="Cards">
         <div className="CardGroup">
-          {/* <Card
+          <Card
+            hovered={props.hovered}
+            toggleHover={props.toggleHover}
             name={t('gs1.name')}
+            category={t('eoko.categories')}
             title={t('gs1.title')}
             text={t('gs1.abstract')}
-            logo={require('../images/gs1-logo.png')}
-            cover={require('../images/gs1-cover.png')} /> */}
+            logo={require('../images/gs1_logo.png')}
+            cover={require('../images/gs1_cover.png')} />
           <Card
             hovered={props.hovered}
             toggleHover={props.toggleHover}
@@ -85,7 +88,7 @@ const IndexPage = (props) => {
             hovered={props.hovered}
             toggleHover={props.toggleHover}
             name={t('schmearit.name')}
-            category={t('busbuddy.categories')}
+            category={t('schmearit.categories')}
             title={t('schmearit.title')}
             text={t('schmearit.abstract')}
             logo={require('../images/schmearit_logo.jpg')}

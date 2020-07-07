@@ -15,7 +15,7 @@ const EokoPage = () => {
             <SEO title="Page two" />
             <div className="c-title">
                 <div className="c-title__feature-img">
-                    <img src={t('eoko.logo')} />
+                    <img src={require('../images/eoko_logo.png')} />
                 </div>
                 <div className="c-title__text">
                     <h1 className="c-h1__eoko">{t('eoko.title')}</h1>
@@ -42,7 +42,7 @@ const EokoPage = () => {
                 </div>
             </div>
             <div className="l-decription">
-                <img src={t('eoko.cover')} className="c-title-image wow fadeInUp" ></img>
+                <img src={require('../images/eoko_cover.jpg')} className="c-title-image wow fadeInUp" ></img>
                 {t('eoko.content').split('\n').map(function (item, key) {
                     return (
                         <p className="wow fadeInUp" ey={key}>
