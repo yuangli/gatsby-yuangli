@@ -69,6 +69,10 @@
         background-size: cover;
         // transition: .5s;
     }
+    &--gs1{
+
+        background-image: url('../images/gs1_cover.png');      
+    }
     &--eoko{
 
         background-image: url('../images/eoko_cover.jpg');      
@@ -158,6 +162,9 @@
     border-width: 2px;
     text-transform: uppercase;
 
+    &--gs1{
+        border-color: #002C6C;
+    }
     &--eoko{
         border-color: #F87C1C;
     }
@@ -168,7 +175,10 @@
         color: white;
         text-align: center;
     }
-    
+
+    &_button--gs1{
+        background-color: #002C6C;
+    }
     &_button--eoko{
         background-color: #F87C1C;
     }
