@@ -43,7 +43,142 @@ const EokoPage = () => {
             </div>
             <div className="l-decription">
                 <img src={require('../images/eoko_cover.jpg')} className="c-title-image wow fadeInUp" ></img>
-                {t('eoko.content').split('\n').map(function (item, key) {
+                {t('eoko.content.process_title').split('\n').map(function (item, key) {
+                    return (
+                        <h1 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h1>
+                    )
+                })
+                }
+                {t('eoko.content.process').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('eoko.content.implementation_title').split('\n').map(function (item, key) {
+                    return (
+                        <h1 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h1>
+                    )
+                })
+                }
+                {t('eoko.content.implementation').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                <img src={require('../images/eoko_old_design.png')} />
+                {t('eoko.content.deliverable_title').split('\n').map(function (item, key) {
+                    return (
+                        <h1 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h1>
+                    )
+                })
+                }
+                <div class="l-content c-feature">
+                    <img className="c-feature__1-image" src={require('../images/eoko_homebase.png')} />
+                    <div class="c-feature__1-text wow fadeInUp">
+                        <h3 class="c-feature--step wow fadeInUp">1</h3>
+                        {t('eoko.content.deliverable1_title').split('\n').map(function (item, key) {
+                            return (
+                                <h3 className="wow fadeInUp" ey={key}>
+                                    {item}
+                                </h3>
+                            )
+                        })
+                        }
+                        {t('eoko.content.deliverable1_description').split('\n').map(function (item, key) {
+                            return (
+                                <p className="wow fadeInUp" ey={key}>
+                                    {item}
+                                </p>
+                            )
+                        })
+                        }
+                    </div>
+                    <img className="c-feature__2-image" src={require('../images/eoko_homebase.png')} />
+                    <div class="c-feature__2-text wow fadeInUp">
+                        <h3 class="c-feature--step wow fadeInUp">2</h3>
+                        {t('eoko.content.deliverable2_title').split('\n').map(function (item, key) {
+                            return (
+                                <h3 className="wow fadeInUp" ey={key}>
+                                    {item}
+                                </h3>
+                            )
+                        })
+                        }
+                        {t('eoko.content.deliverable2_description').split('\n').map(function (item, key) {
+                            return (
+                                <p className="wow fadeInUp" ey={key}>
+                                    {item}
+                                </p>
+                            )
+                        })
+                        }
+                    </div>
+                    <img className="c-feature__3-image" src={require('../images/eoko_homebase.png')} />
+                    <div class="c-feature__3-text wow fadeInUp">
+                        <h3 class="c-feature--step wow fadeInUp">3</h3>
+                        {t('eoko.content.deliverable3_title').split('\n').map(function (item, key) {
+                            return (
+                                <h3 className="wow fadeInUp" ey={key}>
+                                    {item}
+                                </h3>
+                            )
+                        })
+                        }
+                        {t('eoko.content.deliverable3_description').split('\n').map(function (item, key) {
+                            return (
+                                <p className="wow fadeInUp" ey={key}>
+                                    {item}
+                                </p>
+                            )
+                        })
+                        }
+                    </div>
+                    <img className="c-feature__4-image" src={require('../images/eoko_homebase.png')} />
+                    <div class="c-feature__4-text wow fadeInUp">
+                        <h3 class="c-feature--step wow fadeInUp">4</h3>
+                        {t('eoko.content.deliverable4_title').split('\n').map(function (item, key) {
+                            return (
+                                <h3 className="wow fadeInUp" ey={key}>
+                                    {item}
+                                </h3>
+                            )
+                        })
+                        }
+                        {t('eoko.content.deliverable4_description').split('\n').map(function (item, key) {
+                            return (
+                                <p className="wow fadeInUp" ey={key}>
+                                    {item}
+                                </p>
+                            )
+                        })
+                        }
+                    </div>
+                </div>
+                {t('eoko.content.result_title').split('\n').map(function (item, key) {
+                    return (
+                        <h1 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h1>
+                    )
+                })
+                }
+                <div class="c-content-flex">
+                    <img src={require('../images/eoko_recphilly_meeting.jpeg')} />
+                    <img src={require('../images/eoko_flyers_meeting.jpeg')} />
+                </div>
+                {t('eoko.content.result').split('\n').map(function (item, key) {
                     return (
                         <p className="wow fadeInUp" ey={key}>
                             {item}

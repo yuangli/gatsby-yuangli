@@ -19,9 +19,8 @@
     "name": "tripple",
     "title": "tripple",
     "position": "Project Manager",
-    "abstract": "In the pass 6 months, I served as a project manager.",
+    "abstract": "As a project manager, I take charge of scheduling meetings, hearing team members concerns, moderate conflicts and sharing updates with the DIGM team, CCI team and advisors.",
     "categories": [
-      "Art",
       "Immersive",
       "UX"
     ],
@@ -29,7 +28,7 @@
     "button2": "eoko",
     "link": "Go back to the homepage",
     "paragraph": "In the span of nine months, our team plans on creating an immersive digital art exhibit for our senior capstone project. With a user-centered design process, we hope to successfully achieve our goal of the project; we believe that an immersive digital media exhibit that is dynamically affected by the outcome of different biosensors for residents of the Philadelphia area will facilitate spontaneous creative collaboration between strangers. Weâ€™ll know this is true when we see participants communicating with each other to achieve an outcome.",
-    "content": "In the span of nine months, our team plans on creating an immersive digital art exhibit for our senior capstone project. With a user-centered design process, we hope to successfully achieve our goal of the project; we believe that an immersive digital media exhibit that is dynamically affected by the outcome of different biosensors for residents of the Philadelphia area will facilitate spontaneous creative collaboration between strangers. Weâ€™ll know this is true when we see participants communicating with each other to achieve an outcome.\n"
+    "content": "I joined eoko.inc in October 2018 as a lead UI / UX designer as well as helping to build the front end development of the web apps, CloutQuiz App and eoko App. We use an agile workflow and incorporate closely with our business and development teams. My responsibility is designing and redesigning our branding of the company, components, interfaces and user experience for the apps, and participate in the meetings and events. I learnt and practiced new technologies on both design and development aspects from the experience.\n dsdjaksj\n For eoko app specifically, this is a two week design and development sprint. My job in the team is to remap the user experience of the app based on the existed features, and redesign the user interfaces with usability testing. Since this project had a relatively clear business plan and a lot marketing researches, my first job is to help the company identity the goal of the Minimum viable product. I spent time talking with business and marketing in the company.\nTogether, we filled out the project canvas, business canvas and UX Questionnaires, which gave me a better knowledges on the target audience and competitive applications. I had some couple long talks with my co-workers about the researches had been done. Another than that, I had done a lot of researches on the ecosystem of the accelerator, and interviewed people at the incubator of Drexel University."
   },
   "gs1": {
     "id": 2,
@@ -63,7 +62,23 @@
     "button2": "eoko",
     "link": "Go back to the homepage",
     "paragraph": "I joined eoko.inc in October 2018 as a lead UI / UX designer as well as helping to build the front end development of the web apps, CloutQuiz App and eoko App. We use an agile workflow and incorporate closely with our business and development teams. My responsibility is designing and redesigning our branding of the company, components, interfaces and user experience for the apps, and participate in the meetings and events. I learnt and practiced new technologies on both design and development aspects from the experience.",
-    "content": "I joined eoko.inc in October 2018 as a lead UI / UX designer as well as helping to build the front end development of the web apps, CloutQuiz App and eoko App. We use an agile workflow and incorporate closely with our business and development teams. My responsibility is designing and redesigning our branding of the company, components, interfaces and user experience for the apps, and participate in the meetings and events. I learnt and practiced new technologies on both design and development aspects from the experience.\n dsdjaksj\n For eoko app specifically, this is a two week design and development sprint. My job in the team is to remap the user experience of the app based on the existed features, and redesign the user interfaces with usability testing. Since this project had a relatively clear business plan and a lot marketing researches, my first job is to help the company identity the goal of the Minimum viable product. I spent time talking with business and marketing in the company.\nTogether, we filled out the project canvas, business canvas and UX Questionnaires, which gave me a better knowledges on the target audience and competitive applications. I had some couple long talks with my co-workers about the researches had been done. Another than that, I had done a lot of researches on the ecosystem of the accelerator, and interviewed people at the incubator of Drexel University."
+    "content": {
+      "process_title": "Process",
+      "process": "For eoko app specifically, this is a two week design and development sprint. My job in the team is to remap the user experience of the app based on the existed features, and redesign the user interfaces with usability testing. Since this project had a relatively clear business plan and a lot marketing researches, my first job is to help the company identity the goal of the Minimum viable product. I spent time talking with business and marketing in the company.\nTogether, we filled out the project canvas, business canvas and UX Questionnaires, which gave me a better knowledges on the target audience and competitive applications. I had some couple long talks with my co-workers about the researches had been done. Another than that, I had done a lot of researches on the ecosystem of the accelerator, and interviewed people at the incubator of Drexel University.",
+      "implementation_title": "Implementation",
+      "implementation": "For eoko app specifically, this is a two week design and development sprint. My job in the team is to remap the user experience of the app based on the existed features, and redesign the user interfaces with usability testing. Since this project had a relatively clear business plan and a lot marketing researches, my first job is to help the company identity the goal of the Minimum viable product. I spent time talking with business and marketing in the company.\nTogether, we filled out the project canvas, business canvas and UX Questionnaires, which gave me a better knowledges on the target audience and competitive applications. I had some couple long talks with my co-workers about the researches had been done. Another than that, I had done a lot of researches on the ecosystem of the accelerator, and interviewed people at the incubator of Drexel University.\n The Interface designed before I joined doesn't have a clear hierarchy shown on the layout and the style is also not well polished (Screenshoot shown below). It was built by Adobe Illustrator for wireframing and IOS UI components as style guide. \n ",
+      "deliverable_title": "Deliverable",
+      "deliverable1_title": "Homebase, always be up to day",
+      "deliverable1_description": "Upload your cover photos for easy in house adds, see what happening today and plan anything you need for tomorrow.",
+      "deliverable2_title": "Hangouts",
+      "deliverable2_description": "Members can create an hangout to invite all other members to their casual event, members always know when other members are free and hanging out.",
+      "deliverable3_title": "Booking",
+      "deliverable3_description": "Booking will not only be seemly but it won't be annoying. Create rooms, availability and even charge per use.",
+      "deliverable4_title": "Marketplace",
+      "deliverable4_description": "Marketplace to sell and buy internally. Create categories, and let it go.",
+      "result_title": "Result",
+      "result": "The destination of the two weeks sprint is the client meetings. Our public relations team reached out to 3 local start-up accelerators. I attended 2 of them and helped the interpretation of the user experience process, and user scenario narration. \n We gained valuable feedbacks from the clients by telling the story of themseleves managing the team, and how having a mobile app will help them. At the same time, they also indicate the their expectation on us."
+    }
   },
   "busbuddy": {
     "id": 4,
