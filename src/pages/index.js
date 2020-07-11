@@ -53,8 +53,19 @@ const IndexPage = (props) => {
           <Card
             hovered={props.hovered}
             toggleHover={props.toggleHover}
+            id={t('tripple.id')}
+            name={t('tripple.name')}
+            category={t('tripple.categories')}
+            title={t('tripple.title')}
+            text={t('tripple.abstract')}
+            logo={require('../images/tripple_logo.png')}
+            cover={require('../images/tripple_cover.png')} />
+          <Card
+            hovered={props.hovered}
+            toggleHover={props.toggleHover}
+            id={t('gs1.id')}
             name={t('gs1.name')}
-            category={t('eoko.categories')}
+            category={t('gs1.categories')}
             title={t('gs1.title')}
             text={t('gs1.abstract')}
             logo={require('../images/gs1_logo.png')}
@@ -62,22 +73,17 @@ const IndexPage = (props) => {
           <Card
             hovered={props.hovered}
             toggleHover={props.toggleHover}
+            id={t('eoko.id')}
             name={t('eoko.name')}
             category={t('eoko.categories')}
             title={t('eoko.title')}
             text={t('eoko.abstract')}
             logo={require('../images/eoko_logo.png')}
             cover={require('../images/eoko_cover.jpg')} />
-
-          {/* <Card
-            name={t('tripple.name')}
-            title={t('tripple.title')}
-            text={t('tripple.abstract')}
-            logo={require('../images/tripple-logo.png')}
-            cover={require('../images/tripple-cover.png')} /> */}
           <Card
             hovered={props.hovered}
             toggleHover={props.toggleHover}
+            id={t('busbuddy.id')}
             name={t('busbuddy.name')}
             category={t('busbuddy.categories')}
             title={t('busbuddy.title')}
@@ -87,12 +93,23 @@ const IndexPage = (props) => {
           <Card
             hovered={props.hovered}
             toggleHover={props.toggleHover}
+            id={t('ptf2019.id')}
+            name={t('ptf2019.name')}
+            category={t('ptf2019.categories')}
+            title={t('ptf2019.title')}
+            text={t('ptf2019.abstract')}
+            logo={require('../images/ptf2019_logo.png')}
+            cover={require('../images/ptf2019_cover.png')} />
+          <Card
+            hovered={props.hovered}
+            toggleHover={props.toggleHover}
+            id={t('schmearit.id')}
             name={t('schmearit.name')}
             category={t('schmearit.categories')}
             title={t('schmearit.title')}
             text={t('schmearit.abstract')}
-            logo={require('../images/schmearit_logo.jpg')}
-            cover={require('../images/schmearit_cover.jpg')} />
+            logo={require('../images/schmearit_logo.png')}
+            cover={require('../images/schmearit_cover.png')} />
         </div>
       </div>
 

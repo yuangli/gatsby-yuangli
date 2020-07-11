@@ -13,7 +13,6 @@
     margin: 5rem auto 0 auto;
     width: 100%;
     height: 13rem;
-    // transition: 1s;
     
     &__cates{
         display: none;
@@ -36,14 +35,16 @@
     height: 100%;
     mix-blend-mode: screen;
     z-index: 999;
-    // transition: .5s;
+    transition: 1s;
 
     &__green{
         background-color: #216739;
+        // background-blend-mode: multiply;
     }
 
     &__blue{
         background-color: #2D363F;
+        // background-blend-mode: multiply;
     }
 }
 
@@ -67,21 +68,26 @@
         background-position: center;  
         background-repeat: no-repeat;
         background-size: cover;
-        // transition: .5s;
+        mix-blend-mode: screen;
+        transition: 1s
+    }
+    &--tripple{
+        background-image: url('../images/tripple_cover.png');   
     }
     &--gs1{
-
-        background-image: url('../images/gs1_cover.png');      
+        background-image: url('../images/gs1_cover.png');   
     }
     &--eoko{
-
         background-image: url('../images/eoko_cover.jpg');      
     }
     &--busbuddy{
         background-image: url('../images/busbuddy_cover.png');      
     }
+    &--ptf2019{
+        background-image: url('../images/ptf2019_cover.png');      
+    }
     &--schmearit{
-        background-image: url('../images/schmearit_cover.jpg');      
+        background-image: url('../images/schmearit_cover.png');      
     }
 }
 
@@ -99,11 +105,23 @@
     display: block;
 }
 .c-h1{
+    &__tripple{
+        color: #3C7B7D; 
+    }
+    &__gs1{
+        color: #002C6C;
+    }
     &__eoko{
         color: #F87C1C; 
     }
     &__busbuddy{
-        color: green;
+        color: #2a64be;
+    }
+    &__ptf2019{
+        color: #2D363F;
+    }
+    &__schmearit{
+        color: #EC5A2F;
     }
 }
 
@@ -112,11 +130,11 @@
 }
 
 .js-is-hovered{
-    > .c-color-filter{
+     .c-color-filter{
         background: none;
     }
     
-    > .c-box__image--general{
+     .c-box__image--general{
         filter: none;
     }
 
@@ -162,11 +180,23 @@
     border-width: 2px;
     text-transform: uppercase;
 
+    &--tripple{
+        border-color: #3C7B7D;
+    }
     &--gs1{
         border-color: #002C6C;
     }
     &--eoko{
         border-color: #F87C1C;
+    }
+    &--busbuddy{
+        border-color: #2a64be;
+    }
+    &--ptf2019{
+        border-color: #2D363F;
+    }
+    &--schmearit{
+        border-color: #EC5A2F;
     }
        
     &_button{
@@ -176,6 +206,9 @@
         text-align: center;
     }
 
+    &_button--tripple{
+        background-color: #3C7B7D;
+    }
     &_button--gs1{
         background-color: #002C6C;
     }
@@ -184,11 +217,13 @@
     }
 
     &_button--busbuddy{
-        background-color: green;
+        background-color: #2a64be;
     }
-
+    &_button--ptf2019{
+        background-color: #2D363F;
+    }
     &_button--schmearit{
-        background-color: green;
+        background-color: #EC5A2F;
     }
 }
  // ANIMATIONS

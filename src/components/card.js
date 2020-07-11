@@ -4,6 +4,7 @@ import { Link } from 'gatsby'
 import { func } from 'prop-types'
 
 const Card = (props) => {
+    console.log(props.id)
 
     const [hoveredThis, setThisHovered] = React.useState(false);
 
@@ -12,9 +13,17 @@ const Card = (props) => {
         props.toggleHover()
     }
 
+    function isOdd(num) { return num % 2; }
+    function mixColor(num) {
+        if (isOdd(num) == 0) return 'green'
+        else return 'blue'
+    }
+
     console.log(hoveredThis)
     console.log(props.hovered)
 
+    console.log(props.id)
+    console.log(isOdd(props.id))
     return (
 
         <div className="c-box"
@@ -26,9 +35,11 @@ const Card = (props) => {
             >
                 {/* <div className="c-box__image--general c-box__image--eoko"></div> */}
                 {/* <img src={props.cover} /> */}
-                <div onMouseEnter={props.hovered ? null : toggleThisHover}
-                    className={'c-box__image--general c-box__image--' + props.name}>
-                    {/* className="c-box__image--general c-box__image--eoko"> */}
+                <div className={"c-color-filter c-color-filter__" + mixColor(props.id)} >
+                    <div onMouseEnter={props.hovered ? null : toggleThisHover}
+                        className={'c-box__image--general c-box__image--' + props.name}>
+                        {/* className="c-box__image--general c-box__image--eoko"> */}
+                    </div>
                 </div>
             </Link>
             <div className="c-box__text">

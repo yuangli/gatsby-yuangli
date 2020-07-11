@@ -14,39 +14,8 @@
     "contactme": "联系我",
     "resume": "个人简历"
   },
-  "gs1": {
-    "name": "gs1",
-    "title": "GS1 Global",
-    "position": "UI / UX 设计师",
-    "abstract": "担任eoko.inc的首席UI / UX设计师的实习生。我正在帮助公司改善eoko应用程序和CloutQuiz应用程序的UI和UX。",
-    "categories": [
-      "UI/UX",
-      "平面设计",
-      "开发"
-    ],
-    "button1": "Clout Quiz",
-    "button2": "eoko",
-    "link": "进入第2页",
-    "paragraph": "我于2018年10月加入eoko.inc，担任UI / UX首席设计师，并帮助构建Web应用程序CloutQuiz App和eoko App的前端开发。我们使用敏捷的工作流程，并与我们的业务和开发团队紧密结合。我的职责是设计和重新设计我们的公司品牌，组件，界面和应用程序的用户体验，并参加会议和活动。我从经验中学到并实践了设计和开发方面的新技术。",
-    "content": "歡迎來到你新的Gatsby網站.\n開始建置很棒的內容吧!"
-  },
-  "eoko": {
-    "name": "eoko",
-    "title": "eoko.inc",
-    "position": "UI / UX 设计师",
-    "abstract": "担任 eoko.inc 的首席 UI / UX 设计师的实习生。我正在帮助公司改善 eoko 应用程序和 CloutQuiz 应用程序的 UI 和 UX。",
-    "categories": [
-      "UI/UX",
-      "平面设计",
-      "开发"
-    ],
-    "button1": "Clout Quiz",
-    "button2": "eoko",
-    "link": "进入第2页",
-    "paragraph": "我于2018年10月加入 eoko.inc，担任 UI / UX 首席设计师，并帮助构建Web应用程序 CloutQuiz App 和 eoko App 的前端开发。我们使用敏捷的工作流程，并与我们的业务和开发团队紧密结合。我的职责是设计和重新设计我们的公司品牌，组件，界面和应用程序的用户体验，并参加会议和活动。我从经验中学到并实践了设计和开发方面的新技术。",
-    "content": "我于2018年10月加入eoko.inc，担任 UI / UX 首席设计师，并帮助构建Web应用程序 CloutQuiz App 和 eoko App 的前端开发。我们使用敏捷的工作流程，并与我们的业务和开发团队紧密结合。我的责任是设计和重新设计我们的公司品牌，组件，界面和应用程序的用户体验，并参加会议和活动。我从经验中学习和实践了设计和开发方面的新技术。我在团队中的工作是根据现有功能重新映射应用程序的用户体验，并通过可用性测试重新设计用户界面。由于该项目的业务计划相对明确，并且进行了大量的市场研究，因此我的第一项工作是帮助公司确定最低限度可行产品的目标。我花了很多时间与公司的业务和市场营销进行交谈。\n 我们一起填写了项目画布，业务画布和UX问卷，这使我对目标受众和竞争性应用有了更好的了解。我已经与我的同事进行了几次长时间的讨论，以完成研究。除此之外，我对加速器的生态系统进行了大量研究，并采访了德雷克塞尔大学孵化器的人们。"
-  },
   "tripple": {
+    "id": 1,
     "name": "tripple",
     "title": "tripple",
     "position": "UI / UX 设计师",
@@ -62,7 +31,42 @@
     "paragraph": "我于2018年10月加入eoko.inc，担任UI / UX首席设计师，并帮助构建Web应用程序CloutQuiz App和eoko App的前端开发。我们使用敏捷的工作流程，并与我们的业务和开发团队紧密结合。我的职责是设计和重新设计我们的公司品牌，组件，界面和应用程序的用户体验，并参加会议和活动。我从经验中学到并实践了设计和开发方面的新技术。",
     "content": "歡迎來到你新的Gatsby網站.\n開始建置很棒的內容吧!"
   },
+  "gs1": {
+    "id": 2,
+    "name": "gs1",
+    "title": "GS1 Digital Link",
+    "position": "UI / UX 设计师",
+    "abstract": "担任eoko.inc的首席UI / UX设计师的实习生。我正在帮助公司改善eoko应用程序和CloutQuiz应用程序的UI和UX。",
+    "categories": [
+      "UI/UX",
+      "平面设计",
+      "开发"
+    ],
+    "button1": "Clout Quiz",
+    "button2": "eoko",
+    "link": "进入第2页",
+    "paragraph": "我于2018年10月加入eoko.inc，担任UI / UX首席设计师，并帮助构建Web应用程序CloutQuiz App和eoko App的前端开发。我们使用敏捷的工作流程，并与我们的业务和开发团队紧密结合。我的职责是设计和重新设计我们的公司品牌，组件，界面和应用程序的用户体验，并参加会议和活动。我从经验中学到并实践了设计和开发方面的新技术。",
+    "content": "歡迎來到你新的Gatsby網站.\n開始建置很棒的內容吧!"
+  },
+  "eoko": {
+    "id": 3,
+    "name": "eoko",
+    "title": "eoko.inc",
+    "position": "UI / UX 设计师",
+    "abstract": "担任 eoko.inc 的首席 UI / UX 设计师的实习生。我正在帮助公司改善 eoko 应用程序和 CloutQuiz 应用程序的 UI 和 UX。",
+    "categories": [
+      "UI/UX",
+      "平面设计",
+      "开发"
+    ],
+    "button1": "Clout Quiz",
+    "button2": "eoko",
+    "link": "进入第2页",
+    "paragraph": "我于2018年10月加入 eoko.inc，担任 UI / UX 首席设计师，并帮助构建Web应用程序 CloutQuiz App 和 eoko App 的前端开发。我们使用敏捷的工作流程，并与我们的业务和开发团队紧密结合。我的职责是设计和重新设计我们的公司品牌，组件，界面和应用程序的用户体验，并参加会议和活动。我从经验中学到并实践了设计和开发方面的新技术。",
+    "content": "我于2018年10月加入eoko.inc，担任 UI / UX 首席设计师，并帮助构建Web应用程序 CloutQuiz App 和 eoko App 的前端开发。我们使用敏捷的工作流程，并与我们的业务和开发团队紧密结合。我的责任是设计和重新设计我们的公司品牌，组件，界面和应用程序的用户体验，并参加会议和活动。我从经验中学习和实践了设计和开发方面的新技术。我在团队中的工作是根据现有功能重新映射应用程序的用户体验，并通过可用性测试重新设计用户界面。由于该项目的业务计划相对明确，并且进行了大量的市场研究，因此我的第一项工作是帮助公司确定最低限度可行产品的目标。我花了很多时间与公司的业务和市场营销进行交谈。\n 我们一起填写了项目画布，业务画布和UX问卷，这使我对目标受众和竞争性应用有了更好的了解。我已经与我的同事进行了几次长时间的讨论，以完成研究。除此之外，我对加速器的生态系统进行了大量研究，并采访了德雷克塞尔大学孵化器的人们。"
+  },
   "busbuddy": {
+    "id": 4,
     "name": "busbuddy",
     "title": "busbuddy",
     "position": "UI / UX 设计师",
@@ -78,7 +82,25 @@
     "paragraph": "我于2018年10月加入eoko.inc，担任UI / UX首席设计师，并帮助构建Web应用程序CloutQuiz App和eoko App的前端开发。我们使用敏捷的工作流程，并与我们的业务和开发团队紧密结合。我的职责是设计和重新设计我们的公司品牌，组件，界面和应用程序的用户体验，并参加会议和活动。我从经验中学到并实践了设计和开发方面的新技术。",
     "content": "歡迎來到你新的Gatsby網站.\n開始建置很棒的內容吧!"
   },
+  "ptf2019": {
+    "id": 5,
+    "name": "ptf2019",
+    "title": "2019作品集",
+    "position": "UI / UX Design Intern",
+    "abstract": "Intern as a lead UI / UX Designer for eoko.inc. I am helping the company to improve the UI and UX of both eoko app and CloutQuiz app.",
+    "categories": [
+      "UI/UX",
+      "Graphic",
+      "Dev"
+    ],
+    "button1": "Clout Quiz",
+    "button2": "eoko",
+    "link": "Go back to the homepage",
+    "paragraph": "I joined eoko.inc in October 2018 as a lead UI / UX designer as well as helping to build the front end development of the web apps, CloutQuiz App and eoko App. We use an agile workflow and incorporate closely with our business and development teams. My responsibility is designing and redesigning our branding of the company, components, interfaces and user experience for the apps, and participate in the meetings and events. I learnt and practiced new technologies on both design and development aspects from the experience.",
+    "content": "I joined eoko.inc in October 2018 as a lead UI / UX designer as well as helping to build the front end development of the web apps, CloutQuiz App and eoko App. We use an agile workflow and incorporate closely with our business and development teams. My responsibility is designing and redesigning our branding of the company, components, interfaces and user experience for the apps, and participate in the meetings and events. I learnt and practiced new technologies on both design and development aspects from the experience.\n dsdjaksj\n For eoko app specifically, this is a two week design and development sprint. My job in the team is to remap the user experience of the app based on the existed features, and redesign the user interfaces with usability testing. Since this project had a relatively clear business plan and a lot marketing researches, my first job is to help the company identity the goal of the Minimum viable product. I spent time talking with business and marketing in the company.\nTogether, we filled out the project canvas, business canvas and UX Questionnaires, which gave me a better knowledges on the target audience and competitive applications. I had some couple long talks with my co-workers about the researches had been done. Another than that, I had done a lot of researches on the ecosystem of the accelerator, and interviewed people at the incubator of Drexel University."
+  },
   "schmearit": {
+    "id": 6,
     "name": "schmearit",
     "title": "schmearit",
     "position": "UI / UX 设计师",

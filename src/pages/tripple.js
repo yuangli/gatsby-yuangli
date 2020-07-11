@@ -7,8 +7,7 @@ import { useTranslation } from "react-i18next"
 
 import '../styles/post.scss'
 
-const Gs1Page = () => {
-
+const TripplePage = () => {
     const { t } = useTranslation()
 
     return (
@@ -16,19 +15,19 @@ const Gs1Page = () => {
             <SEO title="Page two" />
             <div className="c-title">
                 <div className="c-title__feature-img">
-                    <img src={require('../images/gs1_logo.png')} />
+                    <img src={require('../images/tripple_logo.png')} />
                 </div>
                 <div className="c-title__text">
-                    <h1 className="c-h1__gs1">{t('gs1.title')}</h1>
-                    <h3 className="c-h3">{t('gs1.position')}</h3>
-                    <p>{t('gs1.abstract')}</p>
+                    <h1 className="c-h1__tripple">{t('tripple.title')}</h1>
+                    <h3 className="c-h3">{t('tripple.position')}</h3>
+                    <p>{t('tripple.abstract')}</p>
                     <ul>
-                        {/* <li className="c-cate c-cate--gs1">{t('gs1.categories')}</li>
-                        <li className="c-cate c-cate--gs1">{t('gs1.categories')}</li>
-                        <li className="c-cate c-cate--gs1">{t('gs1.categories')}</li> */}
-                        {t('gs1.categories').map(function (item, key) {
+                        {/* <li className="c-cate c-cate--eoko">{t('eoko.categories')}</li>
+                        <li className="c-cate c-cate--eoko">{t('eoko.categories')}</li>
+                        <li className="c-cate c-cate--eoko">{t('eoko.categories')}</li> */}
+                        {t('tripple.categories').map(function (item, key) {
                             return (
-                                <li className="c-cate c-cate--gs1">
+                                <li className="c-cate c-cate--tripple">
                                     {item}
                                 </li>
                             )
@@ -36,28 +35,26 @@ const Gs1Page = () => {
                         }
                     </ul>
                     <div className="c-title__buttons">
-                        <a href="https://www.cloutquiz.com" className="c-cate c-cate_button c-cate_button--gs1">{t('gs1.button1')}</a>
+                        <a href="https://www.cloutquiz.com" className="c-cate c-cate_button c-cate_button--tripple">{t('tripple.button1')}</a>
                         <a href="https://itunes.apple.com/us/app/%C3%AAoko/id1297963223"
-                            className="c-cate c-cate_button c-cate_button--gs1">{t('gs1.button2')}</a>
+                            className="c-cate c-cate_button c-cate_button--tripple">{t('tripple.button2')}</a>
                     </div>
                 </div>
             </div>
             <div className="l-decription">
-                <img src={require('../images/gs1_cover.png')} className="c-title-image wow fadeInUp" ></img>
-                <div dangerouslySetInnerHTML={{ __html: t('gs1.content') }} />
-
-                {/* {t('gs1.content').split('\n').map(function (item, key) {
+                <img src={require('../images/tripple_cover.png')} className="c-title-image wow fadeInUp" ></img>
+                {t('tripple.content').split('\n').map(function (item, key) {
                     return (
                         <p className="wow fadeInUp" ey={key}>
                             {item}
                         </p>
                     )
                 })
-                } */}
+                }
             </div>
             {/* <Link to="/">{t('page2.link')}</Link> */}
-            {/* <p>{t('gs1.paragraph')}</p> */}
+            {/* <p>{t('tripple.paragraph')}</p> */}
         </div>
     )
 }
-export default Gs1Page
+export default TripplePage
