@@ -43,7 +43,74 @@ const SchmearItPage = () => {
             </div>
             <div className="l-decription">
                 <img src={require('../images/schmearit_cover.png')} className="c-title-image wow fadeInUp" ></img>
-                {t('schmearit.content').split('\n').map(function (item, key) {
+                {t('schmearit.content.overview_title').split('\n').map(function (item, key) {
+                    return (
+                        <h1 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h1>
+                    )
+                })
+                }
+                {t('schmearit.content.overview').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('schmearit.content.context&challenge_title').split('\n').map(function (item, key) {
+                    return (
+                        <h1 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h1>
+                    )
+                })
+                }
+                {t('schmearit.content.context&challenge').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('schmearit.content.process&insight_title').split('\n').map(function (item, key) {
+                    return (
+                        <h1 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h1>
+                    )
+                })
+                }
+                {t('schmearit.content.process&insight1').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                <img src={require('../images/schmearit_swot-4cs.jpg')} />
+                <img src={require('../images/schmearit_affinitymap.jpg')} />
+                {t('schmearit.content.process&insight2').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                <img src={require('../images/schmearit_4cs.png')} />
+                {t('schmearit.content.process&insight3').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('schmearit.content.process&insight4').split('\n').map(function (item, key) {
                     return (
                         <p className="wow fadeInUp" ey={key}>
                             {item}
