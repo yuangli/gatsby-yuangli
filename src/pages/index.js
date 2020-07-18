@@ -93,16 +93,6 @@ const IndexPage = (props) => {
           <Card
             hovered={props.hovered}
             toggleHover={props.toggleHover}
-            id={t('ptf2019.id')}
-            name={t('ptf2019.name')}
-            category={t('ptf2019.categories')}
-            title={t('ptf2019.title')}
-            text={t('ptf2019.abstract')}
-            logo={require('../images/ptf2019_logo.png')}
-            cover={require('../images/ptf2019_cover.png')} />
-          <Card
-            hovered={props.hovered}
-            toggleHover={props.toggleHover}
             id={t('schmearit.id')}
             name={t('schmearit.name')}
             category={t('schmearit.categories')}

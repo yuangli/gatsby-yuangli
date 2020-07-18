@@ -12,7 +12,7 @@ const TripplePage = () => {
 
     return (
         <div className="l-post">
-            <SEO title="Page two" />
+            <SEO title="Tripple" />
             <div className="c-title">
                 <div className="c-title__feature-img">
                     <img src={require('../images/tripple_logo.png')} />
@@ -43,7 +43,327 @@ const TripplePage = () => {
             </div>
             <div className="l-decription">
                 <img src={require('../images/tripple_cover.png')} className="c-title-image wow fadeInUp" ></img>
-                {t('tripple.content').split('\n').map(function (item, key) {
+                {t('tripple.content.overview_title').split('\n').map(function (item, key) {
+                    return (
+                        <h1 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h1>
+                    )
+                })
+                }
+                {t('tripple.content.overview').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('tripple.content.pm_title').split('\n').map(function (item, key) {
+                    return (
+                        <h1 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h1>
+                    )
+                })
+                }
+                {t('tripple.content.pm_team_title').split('\n').map(function (item, key) {
+                    return (
+                        <h2 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h2>
+                    )
+                })
+                }
+                {t('tripple.content.pm_team').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('tripple.content.pm_agileWorkflow_title').split('\n').map(function (item, key) {
+                    return (
+                        <h2 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h2>
+                    )
+                })
+                }
+                {t('tripple.content.pm_agileWorkflow').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('tripple.content.pm_tools_title').split('\n').map(function (item, key) {
+                    return (
+                        <h2 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h2>
+                    )
+                })
+                }
+                {t('tripple.content.pm_tools').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('tripple.content.creativeProcess_title').split('\n').map(function (item, key) {
+                    return (
+                        <h1 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h1>
+                    )
+                })
+                }
+                {t('tripple.content.creativeProcess_concept_title').split('\n').map(function (item, key) {
+                    return (
+                        <h2 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h2>
+                    )
+                })
+                }
+                {t('tripple.content.creativeProcess_concept').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('tripple.content.creativeProcess_aesthetic_title').split('\n').map(function (item, key) {
+                    return (
+                        <h1 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h1>
+                    )
+                })
+                }
+                {t('tripple.content.creativeProcess_aesthetic_theme_title').split('\n').map(function (item, key) {
+                    return (
+                        <h3 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h3>
+                    )
+                })
+                }
+                {t('tripple.content.creativeProcess_aesthetic_theme').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('tripple.content.creativeProcess_aesthetic_color_title').split('\n').map(function (item, key) {
+                    return (
+                        <h3 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h3>
+                    )
+                })
+                }
+                {t('tripple.content.creativeProcess_aesthetic_color').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('tripple.content.creativeProcess_aesthetic_styleguide_title').split('\n').map(function (item, key) {
+                    return (
+                        <h3 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h3>
+                    )
+                })
+                }
+                {t('tripple.content.creativeProcess_aesthetic_styleguide').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('tripple.content.creativeProcess_aesthetic_graphic_title').split('\n').map(function (item, key) {
+                    return (
+                        <h3 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h3>
+                    )
+                })
+                }
+                {t('tripple.content.creativeProcess_aesthetic_graphic').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('tripple.content.experience_title').split('\n').map(function (item, key) {
+                    return (
+                        <h1 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h1>
+                    )
+                })
+                }
+                {t('tripple.content.experience_uxresearch_title').split('\n').map(function (item, key) {
+                    return (
+                        <h2 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h2>
+                    )
+                })
+                }
+                {t('tripple.content.experience_uxresearch').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('tripple.content.experience_storyboard_title').split('\n').map(function (item, key) {
+                    return (
+                        <h2 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h2>
+                    )
+                })
+                }
+                {t('tripple.content.experience_storyboard').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('tripple.content.experience_testing_title').split('\n').map(function (item, key) {
+                    return (
+                        <h2 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h2>
+                    )
+                })
+                }
+                {t('tripple.content.experience_testing1').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('tripple.content.experience_testing2').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('tripple.content.tech_title').split('\n').map(function (item, key) {
+                    return (
+                        <h1 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h1>
+                    )
+                })
+                }
+                {t('tripple.content.tech_sensor_title').split('\n').map(function (item, key) {
+                    return (
+                        <h2 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h2>
+                    )
+                })
+                }
+                {t('tripple.content.tech_sensor').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('tripple.content.tech_touchdesigner_title').split('\n').map(function (item, key) {
+                    return (
+                        <h2 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h2>
+                    )
+                })
+                }
+                {t('tripple.content.tech_touchdesigner').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('tripple.content.prod_title').split('\n').map(function (item, key) {
+                    return (
+                        <h1 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h1>
+                    )
+                })
+                }
+                {t('tripple.content.prod_venue_title').split('\n').map(function (item, key) {
+                    return (
+                        <h2 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h2>
+                    )
+                })
+                }
+                {t('tripple.content.prod_venue').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('tripple.content.prod_branding_title').split('\n').map(function (item, key) {
+                    return (
+                        <h2 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h2>
+                    )
+                })
+                }
+                {t('tripple.content.prod_website_title').split('\n').map(function (item, key) {
+                    return (
+                        <h2 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h2>
+                    )
+                })
+                }
+                {t('tripple.content.conclusion_title').split('\n').map(function (item, key) {
+                    return (
+                        <h1 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h1>
+                    )
+                })
+                }
+                {t('tripple.content.conclusion').split('\n').map(function (item, key) {
                     return (
                         <p className="wow fadeInUp" ey={key}>
                             {item}

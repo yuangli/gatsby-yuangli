@@ -12,7 +12,7 @@ const EokoPage = () => {
 
     return (
         <div className="l-post">
-            <SEO title="Page two" />
+            <SEO title="eoko" />
             <div className="c-title">
                 <div className="c-title__feature-img">
                     <img src={require('../images/eoko_logo.png')} />

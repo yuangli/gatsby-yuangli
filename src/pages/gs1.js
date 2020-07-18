@@ -13,7 +13,7 @@ const Gs1Page = () => {
 
     return (
         <div className="l-post">
-            <SEO title="Page two" />
+            <SEO title="GS1 Global" />
             <div className="c-title">
                 <div className="c-title__feature-img">
                     <img src={require('../images/gs1_logo.png')} />
@@ -44,16 +44,78 @@ const Gs1Page = () => {
             </div>
             <div className="l-decription">
                 <img src={require('../images/gs1_cover.png')} className="c-title-image wow fadeInUp" ></img>
-                <div dangerouslySetInnerHTML={{ __html: t('gs1.content') }} />
-
-                {/* {t('gs1.content').split('\n').map(function (item, key) {
+                {t('gs1.content.myrole_title').split('\n').map(function (item, key) {
+                    return (
+                        <h1 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h1>
+                    )
+                })
+                }
+                {t('gs1.content.myrole').split('\n').map(function (item, key) {
                     return (
                         <p className="wow fadeInUp" ey={key}>
                             {item}
                         </p>
                     )
                 })
-                } */}
+                }
+                {t('gs1.content.highlights_title').split('\n').map(function (item, key) {
+                    return (
+                        <h1 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h1>
+                    )
+                })
+                }
+                {t('gs1.content.highlights_resolver_title').split('\n').map(function (item, key) {
+                    return (
+                        <h2 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h2>
+                    )
+                })
+                }
+                {t('gs1.content.highlights_resolver').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('gs1.content.highlights_activate_title').split('\n').map(function (item, key) {
+                    return (
+                        <h2 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h2>
+                    )
+                })
+                }
+                {t('gs1.content.highlights_activate').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('gs1.content.highlights_ba_title').split('\n').map(function (item, key) {
+                    return (
+                        <h2 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h2>
+                    )
+                })
+                }
+                {t('gs1.content.highlights_ba').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
             </div>
             {/* <Link to="/">{t('page2.link')}</Link> */}
             {/* <p>{t('gs1.paragraph')}</p> */}

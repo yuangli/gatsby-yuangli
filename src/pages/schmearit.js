@@ -12,7 +12,7 @@ const SchmearItPage = () => {
 
     return (
         <div className="l-post">
-            <SEO title="Page two" />
+            <SEO title="Schmear It" />
             <div className="c-title">
                 <div className="c-title__feature-img">
                     <img src={require('../images/schmearit_logo.png')} />
@@ -91,8 +91,10 @@ const SchmearItPage = () => {
                     )
                 })
                 }
-                <img src={require('../images/schmearit_swot-4cs.jpg')} />
-                <img src={require('../images/schmearit_affinitymap.jpg')} />
+                <div className="c-flex">
+                    <img src={require('../images/schmearit_swot-4cs.jpg')} />
+                    <img src={require('../images/schmearit_affinitymap.jpg')} />
+                </div>
                 {t('schmearit.content.process&insight2').split('\n').map(function (item, key) {
                     return (
                         <p className="wow fadeInUp" ey={key}>
@@ -101,7 +103,6 @@ const SchmearItPage = () => {
                     )
                 })
                 }
-                <img src={require('../images/schmearit_4cs.png')} />
                 {t('schmearit.content.process&insight3').split('\n').map(function (item, key) {
                     return (
                         <p className="wow fadeInUp" ey={key}>
@@ -110,7 +111,90 @@ const SchmearItPage = () => {
                     )
                 })
                 }
+                <img src={require('../images/schmearit_competitive-research.png')} />
                 {t('schmearit.content.process&insight4').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                <img src={require('../images/schmearit_sketches.png')} />
+                {t('schmearit.content.process&insight5').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                <img src={require('../images/schmearit_moodboard.png')} />
+                {t('schmearit.content.process&insight6').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                <div className="c-flex">
+                    <img src={require('../images/schmearit_paperproto.png')} />
+                    <img src={require('../images/schmearit_papertesting.jpg')} />
+                </div>
+                {t('schmearit.content.process&insight7').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                <img src={require('../images/schmearit_hifi-testing.png')} />
+                {t('schmearit.content.solution_title').split('\n').map(function (item, key) {
+                    return (
+                        <h1 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h1>
+                    )
+                })
+                }
+                <img src={require('../images/schmearit_solution1.png')} />
+                {t('schmearit.content.solution1').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                <img src={require('../images/schmearit_solution2.png')} />
+                {t('schmearit.content.solution2').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                <img src={require('../images/schmearit_solution3.png')} />
+                {t('schmearit.content.solution3').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
+                {t('schmearit.content.result_title').split('\n').map(function (item, key) {
+                    return (
+                        <h1 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h1>
+                    )
+                })
+                }
+                {t('schmearit.content.result').split('\n').map(function (item, key) {
                     return (
                         <p className="wow fadeInUp" ey={key}>
                             {item}

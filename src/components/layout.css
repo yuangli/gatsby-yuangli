@@ -62,12 +62,8 @@ html {
   box-sizing: border-box;
 }
 
-h1{
+h1 h2{
   font-family: 'AdelonRegular', 'JYGemingdahei-Bold';
-}
-
-h2{
-  font-family: "Adelon Italic", 'JYGemingdahei-Bold';
 }
 
 body{
