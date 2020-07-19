@@ -7,15 +7,28 @@ li{
 }
 
 
+// .l-navbar{
+//     position: fixed;
+//     // transition-duration: .5s;
+//     display: flex;
+//     justify-content: space-between;
+//     top: 0;
+//     width: 90%;
+//     z-index: 99;
+// }
+
 .l-navbar{
-    position: fixed;
-    // transition-duration: .5s;
+    color: #9B9B9B;
+    transition-duration: .5s;
     display: flex;
     justify-content: space-between;
     top: 0;
-    width: 90%;
+    padding-top: 1rem;
+    margin: 0 2rem 0 1.5rem;
     z-index: 99;
+
 }
+
 
 .c-logo{
 
@@ -52,9 +65,6 @@ li{
 .c-navbar{
     margin: auto 0;
 
-    &__li{
-        margin: 0 1rem;
-    }
 }
 
 .c-navbar__li{
@@ -66,8 +76,8 @@ li{
 
 @media screen and (min-width: 768px){
     .l-navbar{
-        margin: 0 5rem;
         padding: 3rem 0 0 0;
+        margin: 0 5rem;
     }
     .c-logo{
         &__title{
@@ -85,7 +95,7 @@ li{
 
 @media screen and (min-width: 1080px){
     .l-navbar{
-        position: fixed;
+        position: sticky;
     }
 
 }
