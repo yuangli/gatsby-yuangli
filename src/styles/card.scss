@@ -30,10 +30,11 @@
 }
 
 .c-color-filter {
+    left: 0;
     position: absolute;
     width: 99.9%;
     height: 100%;
-    mix-blend-mode: screen;
+    // mix-blend-mode: screen;
     z-index: 999;
     transition: 1s;
 
@@ -83,9 +84,6 @@
     &--busbuddy{
         background-image: url('../images/busbuddy_cover.png');      
     }
-    &--ptf2019{
-        background-image: url('../images/ptf2019_cover.png');      
-    }
     &--schmearit{
         background-image: url('../images/schmearit_cover.png');      
     }
@@ -116,9 +114,6 @@
     }
     &__busbuddy{
         color: #2a64be;
-    }
-    &__ptf2019{
-        color: #2D363F;
     }
     &__schmearit{
         color: #EC5A2F;
@@ -192,9 +187,6 @@
     &--busbuddy{
         border-color: #2a64be;
     }
-    &--ptf2019{
-        border-color: #2D363F;
-    }
     &--schmearit{
         border-color: #EC5A2F;
     }
@@ -219,9 +211,6 @@
     &_button--busbuddy{
         background-color: #2a64be;
     }
-    &_button--ptf2019{
-        background-color: #2D363F;
-    }
     &_button--schmearit{
         background-color: #EC5A2F;
     }
@@ -233,13 +222,13 @@
         visibility: hidden;
        display: none;
        opacity: 0;
-       right: 3rem;
+       right: 4rem;
 
     }
     to {
         visibility: visible;
         opacity: 1;
-        right: 0rem;
+        right: 3rem;
     }
 }
 
@@ -247,13 +236,13 @@
    from{
        visibility: hidden;
        opacity: 0;
-       left: 3rem;
+       left: 4rem;
 
    }
    to {
        visibility: visible;
        opacity: 1;
-       left: 0rem;
+       left: 3rem;
    }
 }
 
@@ -261,13 +250,13 @@
     from{
         visibility: visible;
         opacity: 1;
-        right: 0rem;
+        right: 3rem;
     }
     to {
         visibility: hidden;
         display: none;
         opacity: 0;
-        right: 3rem;
+        right: 4rem;
     }
 }
 
@@ -275,12 +264,12 @@
    from{
         visibility: visible;
         opacity: 1;
-        left: 0rem;
+        left: 3rem;
    }
    to {
        visibility: hidden;
        opacity: 0;
-       left: 3rem;
+       left: 4rem;
    }
 }
 
@@ -308,12 +297,12 @@
     }
 
     .page1{
-        width: 50%;
+        width: 45%;
         position: relative;
     }
 
     .c-box{
-        width: 85%;
+        width: 95%;
 
     
         &__cates{

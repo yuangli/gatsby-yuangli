@@ -36,6 +36,7 @@ const Layout = ({ children, t, i18n }) => {
   const childrenWithProps = React.Children.map(children,
     (child) => React.cloneElement(child, { toggleHover: toggleHover, hovered: hovered }));
 
+  console.log(t(`site`))
   return (
     <>
       <Header siteTitle={translatedTitle}
@@ -47,7 +48,7 @@ const Layout = ({ children, t, i18n }) => {
           {childrenWithProps}
         </main>
         <footer>
-          © {new Date().getFullYear()}, {t(`site.footer`)}
+          {t(`site.footer`)} v1.0 © {new Date().getFullYear()}
         </footer>
       </div>
     </>

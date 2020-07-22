@@ -1,7 +1,7 @@
 {
   "site": {
     "Yuang Li": "Yuang's Portfolio",
-    "footer": "Built with Gatsby"
+    "footer": "Yuang's Portfolio"
   },
   "home": {
     "iam": "Hi, I am",
@@ -12,7 +12,8 @@
     "mission": "Combining art and technology, I create unconventional experiences for people's consciousness as well as deliver consistent experiences for users across the cultures, nations and types of accessibility.",
     "link": "Go to page 2",
     "contactme": "Contact Me",
-    "resume": "Resume"
+    "resume_title": "Resume",
+    "resume": "/resume_yuangli.pdf"
   },
   "tripple": {
     "id": 1,

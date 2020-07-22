@@ -1,15 +1,108 @@
+*{
+    line-height: 1.5;
+
+}
 .l-content{
     // width: 90%;
     margin: 0 auto;        
 }
 
-.l-content > *{
-    line-height: 1.5;
-    // margin: 5rem 0;
-}
-
 .l-content > img{
     margin: auto;
+}
+
+.c-title__feature-img > img{
+    display: none;
+}
+
+.l-decription{
+    margin-top: 4rem;
+}
+
+.l-decription > p{
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+
+.l-decription > h1{
+    line-height: 1.5;
+    margin: 4rem 0 2.5rem 0;
+}
+.l-decription > h2{
+    line-height: 1.5;
+    margin-bottom: 2.5rem;
+}
+.l-decription > h3{
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.l-decription img{
+    margin-bottom: 4rem;
+}
+
+.c-feature{
+    &--goal{
+        display: flex;
+    }
+
+    > *{
+        margin: 0;
+    }
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    "feature1-img feature1-text"
+    "feature2-text feature2-img"
+    "feature3-img feature3-text"
+    "feature4-text feature4-img";
+
+    &__1-text{
+        grid-area: feature1-text;
+        margin: 2rem;
+    }
+    &__2-text{
+        grid-area: feature2-text;
+        margin: 2rem;
+    }
+    &__3-text{
+        grid-area: feature3-text;
+        margin: 2rem;
+    }
+    &__4-text{
+        grid-area: feature4-text;
+        margin: 2rem;
+    }
+
+    &--goal__1{
+        border-right: 1px solid;
+    }
+    &--goal__3{
+        border-left: 1px solid;
+    }
+}
+
+
+.c-flex--flex{
+    display: flex;
+
+    & :first-child{
+     padding-right: .5rem;
+     }
+     & :last-child{
+         padding-left: .5rem;
+     }
+
+    & > img {
+        width: 50%;
+        height: 100%;
+    }
+}
+
+.c-flex--busbuddyPrototype2 > img{
+    margin-bottom: 0;
 }
 
 .c-feature{
@@ -170,19 +263,7 @@
     // .l-content{
     // width: 70%;
     // }
-
-    
     .c-feature{
-        &--goal{
-            display: flex;
-        }
-
-        > *{
-            margin: 0;
-        }
-
-        display: grid;
-        grid-template-columns: 50% 50%;
         grid-template-rows: 20rem auto 20rem auto 20rem auto;
         grid-template-areas: 
         "feature1-img feature1-text"
@@ -191,32 +272,9 @@
         "feature3-img feature3-text"
         "feature3-img feature4-img"
         "feature4-text feature4-img";
-
-        &__1-text{
-            grid-area: feature1-text;
-            margin: 2rem;
-        }
-        &__2-text{
-            grid-area: feature2-text;
-            margin: 2rem;
-        }
-        &__3-text{
-            grid-area: feature3-text;
-            margin: 2rem;
-        }
-        &__4-text{
-            grid-area: feature4-text;
-            margin: 2rem;
-        }
-
-        &--goal__1{
-            border-right: 1px solid;
-        }
-        &--goal__3{
-            border-left: 1px solid;
-        }
     }
-
+    
+    
     .c-inspiration{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -321,6 +379,15 @@
            width: 50%;
            height: 100%;
        }
+
+       &--eokoMeetings{
+        & :first-child{
+            width: 36.5%;
+        }
+        & :last-child{
+            width: 63.5%;
+        }
+       }
    }
 }
 
@@ -369,13 +436,13 @@
     }
 }
 
-.l-decription > *{
-    line-height: 1.5;
-    margin: 4rem 0;
-}
+
 
 
 @media screen and (min-width: 720px){
+    .c-title__feature-img > img{
+        display: block;
+    }
     .c-title{
         display: flex;
         width: 90%;
@@ -398,8 +465,7 @@
 
 @media screen and (min-width: 1080px){
     .c-title__feature-img > img{
-        margin: auto;
-        // width: 100%;
+        display: block;
     }
     .c-title{
         width: 100%;

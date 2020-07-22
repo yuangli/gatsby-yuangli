@@ -103,6 +103,12 @@ b{
 font-family: 'Adelon-Bold';
 }
 
+footer{
+  text-align: right;
+  color: #2D363F;
+  margin: 7rem 0 1.5rem 0;
+  padding-right: 2rem;
+}
 /*
 body {
   margin: 0;

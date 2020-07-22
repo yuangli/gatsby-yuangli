@@ -152,11 +152,11 @@ const BusbuddyPage = () => {
                 })
                 }
                 <img src={require('../images/busbuddy_low-fi-prototype.png')} className="c-title-image wow fadeInUp" />
-                <div className="c-flex">
+                <div className="c-flex--flex">
                     <img src={require('../images/busbuddy_high-fi-prototype1.gif')} className="c-title-image wow fadeInUp" />
                     <img src={require('../images/busbuddy_high-fi-prototype2.gif')} className="c-title-image wow fadeInUp" />
                 </div>
-                <div className="c-flex">
+                <div className="c-flex--flex c-flex--busbuddyPrototype2">
                     <img src={require('../images/busbuddy_high-fi-prototype3.gif')} className="c-title-image wow fadeInUp" />
                     <img src={require('../images/busbuddy_high-fi-prototype4.gif')} className="c-title-image wow fadeInUp" />
                 </div>

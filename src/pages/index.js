@@ -16,7 +16,6 @@ const IndexPage = (props) => {
       <SEO title="Home" />
 
       <div className="c-intro">
-
         <div>
           <p className="c-intro__p">{t('home.iam')}</p>
           <h1 className="c-intro__h1">{t('home.name')}</h1>
@@ -30,10 +29,10 @@ const IndexPage = (props) => {
           <h3 className="c-intro__h3">{t('home.mission')}</h3>
         </div>
         <div>
-          <a href="mailto: yl956@drexel.edu" target="_blank"
+          <a href="mailto: yuang@yuangli.com" target="_blank"
             className="animsition-link c-cate c-cate_button c-cate_button--contactme">{t('home.contactme')}</a>
-          <a href="/resume_yuangli.pdf" target="_blank"
-            className="animsition-link c-cate c-cate_button c-cate_button--resume">{t('home.resume')}</a>
+          <a href={t('home.resume')} target="_blank"
+            className="animsition-link c-cate c-cate_button c-cate_button--resume">{t('home.resume_title')}</a>
         </div>
       </div>
 
@@ -45,9 +44,6 @@ const IndexPage = (props) => {
         )
       })
       } */}
-
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      </div>
       <div className="Cards">
         <div className="CardGroup">
           <Card

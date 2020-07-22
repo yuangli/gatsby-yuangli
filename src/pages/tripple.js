@@ -179,6 +179,7 @@ const TripplePage = () => {
                     )
                 })
                 }
+                <img src={require('../images/tripple_color.png')} />
                 {t('tripple.content.creativeProcess_aesthetic_styleguide_title').split('\n').map(function (item, key) {
                     return (
                         <h3 className="wow fadeInUp" ey={key}>
@@ -211,6 +212,10 @@ const TripplePage = () => {
                     )
                 })
                 }
+                <div className="c-flex">
+                    <iframe src={require('../images/tripple_graphic2.mp4')} title="W3Schools Free Online Web Tutorials"></iframe>
+                    <iframe src={require('../images/tripple_graphic2.mp4')} title="W3Schools Free Online Web Tutorials"></iframe>
+                </div>
                 {t('tripple.content.experience_title').split('\n').map(function (item, key) {
                     return (
                         <h1 className="wow fadeInUp" ey={key}>
@@ -235,22 +240,7 @@ const TripplePage = () => {
                     )
                 })
                 }
-                {t('tripple.content.experience_storyboard_title').split('\n').map(function (item, key) {
-                    return (
-                        <h2 className="wow fadeInUp" ey={key}>
-                            {item}
-                        </h2>
-                    )
-                })
-                }
-                {t('tripple.content.experience_storyboard').split('\n').map(function (item, key) {
-                    return (
-                        <p className="wow fadeInUp" ey={key}>
-                            {item}
-                        </p>
-                    )
-                })
-                }
+                <img src={require('../images/tripple_persona.png')} />
                 {t('tripple.content.experience_testing_title').split('\n').map(function (item, key) {
                     return (
                         <h2 className="wow fadeInUp" ey={key}>
@@ -275,6 +265,19 @@ const TripplePage = () => {
                     )
                 })
                 }
+                <div className="c-flex c-flex--busbuddyPrototype2">
+                    <img src={require('../images/tripple_testing1.png')} />
+                    <img src={require('../images/tripple_testing2.png')} />
+                </div>
+                {t('tripple.content.experience_storyboard_title').split('\n').map(function (item, key) {
+                    return (
+                        <h2 className="wow fadeInUp" ey={key}>
+                            {item}
+                        </h2>
+                    )
+                })
+                }
+                <img src={require('../images/tripple_storyboard.png')} />
                 {t('tripple.content.tech_title').split('\n').map(function (item, key) {
                     return (
                         <h1 className="wow fadeInUp" ey={key}>
@@ -291,14 +294,17 @@ const TripplePage = () => {
                     )
                 })
                 }
-                {t('tripple.content.tech_sensor').split('\n').map(function (item, key) {
-                    return (
-                        <p className="wow fadeInUp" ey={key}>
-                            {item}
-                        </p>
-                    )
-                })
-                }
+                <div className="c-flex">
+                    <img src={require('../images/tripple_pluseSensorBand.jpg')} />
+                    {t('tripple.content.tech_sensor').split('\n').map(function (item, key) {
+                        return (
+                            <p className="wow fadeInUp" ey={key}>
+                                {item}
+                            </p>
+                        )
+                    })
+                    }
+                </div>
                 {t('tripple.content.tech_touchdesigner_title').split('\n').map(function (item, key) {
                     return (
                         <h2 className="wow fadeInUp" ey={key}>
@@ -307,6 +313,7 @@ const TripplePage = () => {
                     )
                 })
                 }
+                <img src={require('../images/tripple_flow.png')} />
                 {t('tripple.content.tech_touchdesigner').split('\n').map(function (item, key) {
                     return (
                         <p className="wow fadeInUp" ey={key}>
@@ -355,6 +362,7 @@ const TripplePage = () => {
                     )
                 })
                 }
+                <img src={require('../images/tripple_website.png')} />
                 {t('tripple.content.conclusion_title').split('\n').map(function (item, key) {
                     return (
                         <h1 className="wow fadeInUp" ey={key}>

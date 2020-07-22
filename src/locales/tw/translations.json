@@ -1,6 +1,6 @@
 {
   "site": {
-    "Yuang Li": "李雨昂作品",
+    "Yuang Li": "李雨昂作品集",
     "footer": "使用 Gatsby 建置"
   },
   "home": {
@@ -12,7 +12,8 @@
     "mission": "我将艺术与技术相结合，为人们的意识创造了非常规的体验，并为跨文化，民族和无障碍类型的用户提供了一致的体验。",
     "link": "進入第2頁",
     "contactme": "联系我",
-    "resume": "个人简历"
+    "resume_title": "个人简历",
+    "resume": "/李雨昂简历.pdf"
   },
   "tripple": {
     "id": 1,

@@ -174,7 +174,7 @@ const EokoPage = () => {
                     )
                 })
                 }
-                <div class="c-content-flex">
+                <div class="c-flex c-flex--eokoMeetings">
                     <img src={require('../images/eoko_recphilly_meeting.jpeg')} />
                     <img src={require('../images/eoko_flyers_meeting.jpeg')} />
                 </div>

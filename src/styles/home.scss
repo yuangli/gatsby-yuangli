@@ -13,7 +13,7 @@ $CoachellaColorScheme: #978989;
 $SportsIllustratedColorScheme: #F4BC0E;
 
 .c-intro{
-    width: 42.50%;
+    width: 85%;
     margin: 0 auto;
     &__p{
         color: #9B9B9B;
@@ -43,5 +43,16 @@ $SportsIllustratedColorScheme: #F4BC0E;
     }
     &--resume{
         background-color: #444C57;
+    }
+}
+
+@media screen and (min-width: 720px){
+    .c-intro{
+        width: 65%;
+    }
+}
+@media screen and (min-width: 1080px){
+    .c-intro{
+        width: 42.50%;
     }
 }
