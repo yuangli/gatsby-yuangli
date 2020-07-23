@@ -125,7 +125,7 @@ const BusbuddyPage = () => {
                     )
                 })
                 }
-                <img src={require('../images/busbuddy_flowchart.png')} className="c-title-image wow fadeInUp" />
+                <img src={require('../images/busbuddy_flowchart.jpg')} className="c-title-image wow fadeInUp" />
                 {t('busbuddy.content.process&insight_4_title').split('\n').map(function (item, key) {
                     return (
                         <h1 className="wow fadeInUp" ey={key}>
