@@ -47,8 +47,8 @@ const Layout = ({ children, t, i18n }) => {
         <main>
           {childrenWithProps}
         </main>
-        <footer>
-          {t(`site.footer`)} v1.0 © {new Date().getFullYear()}
+        <footer className="l-footer">
+          {t(`site.footer`)} v1.0 © {new Date().getFullYear()} | Check the code on <a href="https://github.com/yuangli/gatsby-yuangli" target="_blank" rel="noopener norefferer">GitHub</a>
         </footer>
       </div>
     </>
