@@ -4,9 +4,6 @@ import MenuItem from '@material-ui/core/MenuItem'
 import { makeStyles } from '@material-ui/core/styles'
 import { useTranslation } from "react-i18next"
 
-import twLogo from "images/tw.png"
-import enLogo from "images/en.png"
-
 const useStyles = makeStyles({
   selectFocus: {
     "&:focus": {
@@ -32,21 +29,26 @@ const LanguageMenu = (props) => {
     }));
   }
 
+  console.log(values.language);
+
   return (
-    <Select
-      value={values.language}
-      onChange={(e) => handleChange(e)}
-      disableUnderline
-      inputProps={{
-        name: 'language'
-      }}
-      classes={{
-        select: classes.selectFocus
-      }}
-    >
-      <MenuItem value={'en'}><img src={enLogo} alt="EN" /></MenuItem>
-      <MenuItem value={'zh-Hant'}><img src={twLogo} alt="TW" /></MenuItem>
-    </Select>
+    <ul>
+      <Select
+        value={values.language}
+        onChange={(e) => handleChange(e)}
+        disableUnderline
+        inputProps={{
+          name: 'language'
+        }}
+        classes={{
+          select: classes.selectFocus
+        }}
+      >
+        <MenuItem value={'en'}><p>English</p></MenuItem>
+        <MenuItem value={'cn'}><p>中文</p></MenuItem>
+
+      </Select>
+    </ul>
   )
 }
 
