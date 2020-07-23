@@ -36,8 +36,8 @@ const Gs1Page = () => {
                         }
                     </ul>
                     <div className="c-title__buttons">
-                        <a href="https://www.cloutquiz.com" className="c-cate c-cate_button c-cate_button--gs1">{t('gs1.button1')}</a>
-                        <a href="https://itunes.apple.com/us/app/%C3%AAoko/id1297963223"
+                        <a target="_blank" href="https://www.gs1.org/standards/gs1-resolver-service" className="c-cate c-cate_button c-cate_button--gs1">{t('gs1.button1')}</a>
+                        <a target="_blank" href="https://www.gs1.org/services/activate/support"
                             className="c-cate c-cate_button c-cate_button--gs1">{t('gs1.button2')}</a>
                     </div>
                 </div>

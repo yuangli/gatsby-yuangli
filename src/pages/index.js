@@ -49,6 +49,7 @@ const IndexPage = (props) => {
           <Card
             hovered={props.hovered}
             toggleHover={props.toggleHover}
+            viewmore={t('home.viewmore')}
             id={t('tripple.id')}
             name={t('tripple.name')}
             category={t('tripple.categories')}
@@ -59,6 +60,7 @@ const IndexPage = (props) => {
           <Card
             hovered={props.hovered}
             toggleHover={props.toggleHover}
+            viewmore={t('home.viewmore')}
             id={t('gs1.id')}
             name={t('gs1.name')}
             category={t('gs1.categories')}
@@ -69,6 +71,7 @@ const IndexPage = (props) => {
           <Card
             hovered={props.hovered}
             toggleHover={props.toggleHover}
+            viewmore={t('home.viewmore')}
             id={t('eoko.id')}
             name={t('eoko.name')}
             category={t('eoko.categories')}
@@ -79,6 +82,7 @@ const IndexPage = (props) => {
           <Card
             hovered={props.hovered}
             toggleHover={props.toggleHover}
+            viewmore={t('home.viewmore')}
             id={t('busbuddy.id')}
             name={t('busbuddy.name')}
             category={t('busbuddy.categories')}
@@ -89,6 +93,7 @@ const IndexPage = (props) => {
           <Card
             hovered={props.hovered}
             toggleHover={props.toggleHover}
+            viewmore={t('home.viewmore')}
             id={t('schmearit.id')}
             name={t('schmearit.name')}
             category={t('schmearit.categories')}

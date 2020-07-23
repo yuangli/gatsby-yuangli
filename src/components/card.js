@@ -64,7 +64,7 @@ const Card = (props) => {
                     }
 
                 </ul>
-                <Link to={props.name} onClick={props.hovered ? toggleThisHover : null} className={'c-cate c-cate_button c-cate_button--' + props.name}>ViewMore</Link>
+                <Link to={props.name} onClick={props.hovered ? toggleThisHover : null} className={'c-cate c-cate_button c-cate_button--' + props.name}>{props.viewmore}</Link>
 
             </div>
         </div >

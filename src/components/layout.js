@@ -48,7 +48,7 @@ const Layout = ({ children, t, i18n }) => {
           {childrenWithProps}
         </main>
         <footer className="l-footer">
-          {t(`site.footer`)} v1.0 © {new Date().getFullYear()} | Check the code on <a href="https://github.com/yuangli/gatsby-yuangli" target="_blank" rel="noopener norefferer">GitHub</a>
+          {t(`site.Yuang Li`)} v1.0 © {new Date().getFullYear()} | {t(`site.footer`)} <a href="https://github.com/yuangli/gatsby-yuangli" target="_blank" rel="noopener norefferer">GitHub</a>
         </footer>
       </div>
     </>

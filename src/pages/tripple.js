@@ -35,8 +35,8 @@ const TripplePage = () => {
                         }
                     </ul>
                     <div className="c-title__buttons">
-                        <a href="https://www.cloutquiz.com" className="c-cate c-cate_button c-cate_button--tripple">{t('tripple.button1')}</a>
-                        <a href="https://itunes.apple.com/us/app/%C3%AAoko/id1297963223"
+                        <a target="_blank" href="https://www.etherealimmersive.art" className="c-cate c-cate_button c-cate_button--tripple">{t('tripple.button1')}</a>
+                        <a target="_blank" href="https://youtu.be/nfxYTUdVNMA"
                             className="c-cate c-cate_button c-cate_button--tripple">{t('tripple.button2')}</a>
                     </div>
                 </div>
@@ -265,7 +265,7 @@ const TripplePage = () => {
                     )
                 })
                 }
-                <div className="c-flex c-flex--busbuddyPrototype2">
+                <div className="c-flex">
                     <img src={require('../images/tripple_testing1.png')} />
                     <img src={require('../images/tripple_testing2.png')} />
                 </div>
@@ -354,6 +354,7 @@ const TripplePage = () => {
                     )
                 })
                 }
+                <img src={require('../images/tripple_branding.png')} />
                 {t('tripple.content.prod_website_title').split('\n').map(function (item, key) {
                     return (
                         <h2 className="wow fadeInUp" ey={key}>

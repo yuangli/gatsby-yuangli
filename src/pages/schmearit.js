@@ -35,9 +35,7 @@ const SchmearItPage = () => {
                         }
                     </ul>
                     <div className="c-title__buttons">
-                        <a href="https://www.cloutquiz.com" className="c-cate c-cate_button c-cate_button--schmearit">{t('schmearit.button1')}</a>
-                        <a href="https://itunes.apple.com/us/app/%C3%AAoko/id1297963223"
-                            className="c-cate c-cate_button c-cate_button--schmearit">{t('schmearit.button2')}</a>
+                        <a target="_blank" href="https://digm.drexel.edu/idm/2018/06/15/schmear-it/" className="c-cate c-cate_button c-cate_button--schmearit">{t('schmearit.button1')}</a>
                     </div>
                 </div>
             </div>

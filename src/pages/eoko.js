@@ -35,9 +35,7 @@ const EokoPage = () => {
                         }
                     </ul>
                     <div className="c-title__buttons">
-                        <a href="https://www.cloutquiz.com" className="c-cate c-cate_button c-cate_button--eoko">{t('eoko.button1')}</a>
-                        <a href="https://itunes.apple.com/us/app/%C3%AAoko/id1297963223"
-                            className="c-cate c-cate_button c-cate_button--eoko">{t('eoko.button2')}</a>
+                        <a target="_blank" href="https://www.dnb.com/business-directory/company-profiles.eoko_inc.10b9b1195f1041ea913e9bd039f7298a.html" className="c-cate c-cate_button c-cate_button--eoko">{t('eoko.button1')}</a>
                     </div>
                 </div>
             </div>

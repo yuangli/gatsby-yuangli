@@ -1,7 +1,7 @@
 {
   "site": {
     "Yuang Li": "Yuang's Portfolio",
-    "footer": "Yuang's Portfolio"
+    "footer": "Check the code on"
   },
   "home": {
     "iam": "Hi, I am",
@@ -9,26 +9,24 @@
     "iama": "I am a",
     "title": "Full-Stack Designer",
     "mymissionis": "My mission is",
-    "mission": "Combining art and technology, I create unconventional experiences for people's consciousness as well as deliver consistent experiences for users across the cultures, nations and types of accessibility.",
-    "link": "Go to page 2",
+    "mission": "Combining art and technology, I create experiences for arousing people's consciousness and empathy, as well as use usability processes, methods, and techniques to address consistent experiences of accessibility.",
     "contactme": "Contact Me",
     "resume_title": "Resume",
-    "resume": "/resume_yuangli.pdf"
+    "resume": "/resume_yuangli.pdf",
+    "viewmore": "View more"
   },
   "tripple": {
     "id": 1,
     "name": "tripple",
     "title": "tripple",
     "position": "Project Manager",
-    "abstract": "As a project manager, I take charge of scheduling meetings, hearing team members concerns, moderate conflicts and sharing updates with the DIGM team, CCI team and advisors.",
+    "abstract": "I managed a art installation project agilely by planning sprint, hosting meeting, creating customer stories and communicating with product owner",
     "categories": [
       "Immersive",
-      "UX"
+      "Management"
     ],
-    "button1": "Clout Quiz",
-    "button2": "eoko",
-    "link": "Go back to the homepage",
-    "paragraph": "In the span of nine months, our team plans on creating an immersive digital art exhibit for our senior capstone project. With a user-centered design process, we hope to successfully achieve our goal of the project; we believe that an immersive digital media exhibit that is dynamically affected by the outcome of different biosensors for residents of the Philadelphia area will facilitate spontaneous creative collaboration between strangers. Weâ€™ll know this is true when we see participants communicating with each other to achieve an outcome.",
+    "button1": "Website",
+    "button2": "Teaser",
     "content": {
       "overview_title": "Overview",
       "overview": "In the span of nine months, our team created an immersive digital art exhibit for our senior capstone project. We believe that an immersive digital media exhibit that is dynamically affected by the outcome of different biosensors for residents of the Philadelphia area will facilitate spontaneous creative collaboration between strangers. We’ll know this is success when we see participants communicating with each other to achieve an outcome.",
@@ -78,16 +76,14 @@
     "name": "gs1",
     "title": "GS1 Digital Link",
     "position": "UI / UX Design Intern",
-    "abstract": "Intern as a lead UI / UX Designer for eoko.inc. I am helping the company to improve the UI and UX of both eoko app and CloutQuiz app.",
+    "abstract": "Interned as a business intelligence analyst and mobile app developer. In 6 months, I participated in mutiple B2B and B2C e-commerce projects with the company",
     "categories": [
       "UI/UX",
-      "Graphic",
-      "Dev"
+      "Dev",
+      "Intern"
     ],
-    "button1": "Clout Quiz",
-    "button2": "eoko",
-    "link": "Go back to the homepage",
-    "paragraph": "I joined eoko.inc in October 2018 as a lead UI / UX designer as well as helping to build the front end development of the web apps, CloutQuiz App and eoko App. We use an agile workflow and incorporate closely with our business and development teams. My responsibility is designing and redesigning our branding of the company, components, interfaces and user experience for the apps, and participate in the meetings and events. I learnt and practiced new technologies on both design and development aspects from the experience.",
+    "button1": "Resolver",
+    "button2": "Activate",
     "content": {
       "myrole_title": "My role",
       "myrole": "I interned as a business intelligence analyst and mobile app developer for 6 months at GS1 Global. In 6 months, I participated in multiple projects that are B2B and B2C by following an agile project management system. The experience provided me an opportunity to gain multi-faceted skillsets and brought insights to teams and the companies. ",
@@ -105,16 +101,13 @@
     "name": "eoko",
     "title": "eoko App",
     "position": "UI / UX Design Intern",
-    "abstract": "Intern as a lead UI / UX Designer for eoko.inc. I am helping the company to improve the UI and UX of both eoko app and CloutQuiz app.",
+    "abstract": "Joined eoko.inc as a lead UI / UX Designer. I helped the company on improving UI and UX of both eoko app and CloutQuiz app",
     "categories": [
       "UI/UX",
-      "Graphic",
-      "Dev"
+      "B2B",
+      "Contract"
     ],
-    "button1": "Clout Quiz",
-    "button2": "eoko",
-    "link": "Go back to the homepage",
-    "paragraph": "I joined eoko.inc in October 2018 as a lead UI / UX designer as well as helping to build the front end development of the web apps, CloutQuiz App and eoko App. We use an agile workflow and incorporate closely with our business and development teams. My responsibility is designing and redesigning our branding of the company, components, interfaces and user experience for the apps, and participate in the meetings and events. I learnt and practiced new technologies on both design and development aspects from the experience.",
+    "button1": "Company Profile",
     "content": {
       "myrole_title": "My role",
       "myrole": "I joined eoko.inc in October 2018 as an UI / UX designer. I worked on multiple projects with team such as CloutQuiz App and eoko App. We use an agile workflow and incorporate closely with our business and development teams. My responsibility is designing and redesigning  branding, components, interfaces and user experience for the apps, and participate in the meetings and events. I learnt and practiced new technologies on both design and development aspects from the experience.",
@@ -140,16 +133,13 @@
     "name": "busbuddy",
     "title": "BusBuddy",
     "position": "UI / UX Design Intern",
-    "abstract": "Intern as a lead UI / UX Designer for eoko.inc. I am helping the company to improve the UI and UX of both eoko app and CloutQuiz app.",
+    "abstract": "In 6 months, we optimized schoolbus commute experience by IoT and web-app. I involved in designing prototype and developing front & back end and Pi",
     "categories": [
-      "UI/UX",
-      "Graphic",
+      "Interface",
+      "IoT",
       "Dev"
     ],
-    "button1": "Clout Quiz",
-    "button2": "eoko",
-    "link": "Go back to the homepage",
-    "paragraph": "I joined eoko.inc in October 2018 as a lead UI / UX designer as well as helping to build the front end development of the web apps, CloutQuiz App and eoko App. We use an agile workflow and incorporate closely with our business and development teams. My responsibility is designing and redesigning our branding of the company, components, interfaces and user experience for the apps, and participate in the meetings and events. I learnt and practiced new technologies on both design and development aspects from the experience.",
+    "button1": "Case Study",
     "content": {
       "overview_title": "Overview",
       "overview": "Bus Buddy is an interactive mobile web-app designed for parents with elementary school level students to help battle against the long morning school commute. With this system, students will no longer have to wait at their bus stop, unaware of their bus’ arrival. \n Bus Buddy is a hardware & software solution that uses an Internet of Things (IoT) approach to eliminate elementary school transportation uncertainties. The system works by using Raspberry PI technology with GPS and RFID sensors which allows students to scan their school IDs as they board their bus, allowing their parents to see where their bus is at any given morning or afternoon via the Bus Buddy app. Bus Buddy also sends parents SMS notifications when students have safely hopped on the bus, and when their bus is running late, a notification is sent with the updated ETA. A live map view with the Bus’ location is also available on the Bus Buddy app. Bus Buddy offers that peace of mind that parents are looking for while also alleviating frustration for students.",
@@ -177,16 +167,14 @@
     "name": "schmearit",
     "title": "Schmear It",
     "position": "UI / UX Designer",
-    "abstract": "Intern as a lead UI / UX Designer for eoko.inc. I am helping the company to improve the UI and UX of both eoko app and CloutQuiz app.",
+    "abstract": "In 10 weeks design sprint, we redesigned a mobile ordering experience for Schmear It and their customers and finally delivered a high-fidelity prototype",
     "categories": [
       "UI/UX",
       "Graphic",
-      "Dev"
+      "Prototype"
     ],
-    "button1": "Clout Quiz",
-    "button2": "eoko",
+    "button1": "Case Study",
     "link": "Go back to the homepage",
-    "paragraph": "I joined eoko.inc in October 2018 as a lead UI / UX designer as well as helping to build the front end development of the web apps, CloutQuiz App and eoko App. We use an agile workflow and incorporate closely with our business and development teams. My responsibility is designing and redesigning our branding of the company, components, interfaces and user experience for the apps, and participate in the meetings and events. I learnt and practiced new technologies on both design and development aspects from the experience.",
     "content": {
       "overview_title": "Overview",
       "overview": "Over 10 weeks design sprint our group has been working closely with Schmear It and their customers to create a brand new mobile ordering experience. We conducted primary research, went through multiple rounds of ideation and user testing, and ultimately created a final interactive mockup in Sketch and Flinto. Through this process I learned the importance of collaboration, user testing, team meetings, and understanding business requirements. We are extremely pleased with the final application and users gave us many positive feedbacks as well.",

@@ -1,7 +1,7 @@
 {
   "site": {
     "Yuang Li": "李雨昂作品集",
-    "footer": "使用 Gatsby 建置"
+    "footer": "网站代码见"
   },
   "home": {
     "iam": "你好我是",
@@ -9,27 +9,24 @@
     "iama": "我的职位是",
     "title": "全栈设计师",
     "mymissionis": "我的设计理念是",
-    "mission": "我将艺术与技术相结合，为人们的意识创造了非常规的体验，并为跨文化，民族和无障碍类型的用户提供了一致的体验。",
-    "link": "進入第2頁",
+    "mission": "结合艺术和科技技术，我致力于创造出可以唤起人们潜意识与引发共鸣的体验。除此之外，通过可用性研究方法和技术为身体或条件受限制的用户解决问题以获得易懂易操作的用户体验。",
     "contactme": "联系我",
     "resume_title": "个人简历",
-    "resume": "/李雨昂简历.pdf"
+    "resume": "/李雨昂简历.pdf",
+    "viewmore": "查看更多"
   },
   "tripple": {
     "id": 1,
     "name": "tripple",
     "title": "tripple",
-    "position": "UI / UX 设计师",
-    "abstract": "担任eoko.inc的首席UI / UX设计师的实习生。我正在帮助公司改善eoko应用程序和CloutQuiz应用程序的UI和UX。",
+    "position": "项目经理",
+    "abstract": "作为项目经理参与制作一项交互数字艺术展览，职责包括计划Sprint、 组织并主持会议，制作用户故事、以及与上级汇报。",
     "categories": [
-      "UI/UX",
-      "平面设计",
-      "开发"
+      "沉浸式体验",
+      "项目管理"
     ],
-    "button1": "Clout Quiz",
-    "button2": "eoko",
-    "link": "进入第2页",
-    "paragraph": "我于2018年10月加入eoko.inc，担任UI / UX首席设计师，并帮助构建Web应用程序CloutQuiz App和eoko App的前端开发。我们使用敏捷的工作流程，并与我们的业务和开发团队紧密结合。我的职责是设计和重新设计我们的公司品牌，组件，界面和应用程序的用户体验，并参加会议和活动。我从经验中学到并实践了设计和开发方面的新技术。",
+    "button1": "网站",
+    "button2": "纪录短片",
     "content": {
       "overview_title": "综述",
       "overview": "在九个月的时间里，我们的团队打造了一个身临其境的大型交互数字艺术展览，我们策划通过心跳传感器来实现展览中事件的动态反馈，以此来促进参与者之间的自发创意合作，从而达到的体验目的。",
@@ -79,16 +76,14 @@
     "name": "gs1",
     "title": "GS1 Digital Link",
     "position": "UI / UX 设计师",
-    "abstract": "担任eoko.inc的首席UI / UX设计师的实习生。我正在帮助公司改善eoko应用程序和CloutQuiz应用程序的UI和UX。",
+    "abstract": "担任商业产品分析师和应用工程师的实习生，在此期间与各部门合作参与多个B端和C端电子商务产品的开发",
     "categories": [
-      "UI/UX",
-      "平面设计",
-      "开发"
+      "产品分析",
+      "开发",
+      "实习"
     ],
     "button1": "Clout Quiz",
     "button2": "eoko",
-    "link": "进入第2页",
-    "paragraph": "我于2018年10月加入eoko.inc，担任UI / UX首席设计师，并帮助构建Web应用程序CloutQuiz App和eoko App的前端开发。我们使用敏捷的工作流程，并与我们的业务和开发团队紧密结合。我的职责是设计和重新设计我们的公司品牌，组件，界面和应用程序的用户体验，并参加会议和活动。我从经验中学到并实践了设计和开发方面的新技术。",
     "content": {
       "myrole_title": "我的职责",
       "myrole": "我在GS1 Global实习了6个月，担任业务分析师和移动应用程序开发人员。在6个月的时间里，我参与研发了多个B2B和B2C项目，也学习并实践了敏捷项目管理相关的知识。这次经验让我获得了提升多方面技能的机会，同时也为公司和团队带来了自己的贡献和未来发展方针。",
@@ -106,16 +101,14 @@
     "name": "eoko",
     "title": "eoko.inc",
     "position": "UI / UX 设计师",
-    "abstract": "担任 eoko.inc 的首席 UI / UX 设计师的实习生。我正在帮助公司改善 eoko 应用程序和 CloutQuiz 应用程序的 UI 和 UX。",
+    "abstract": "担任eoko.inc的首席UI/UX设计师为创业公司改善eoko和CloutQuiz应用程序设计和改进用户体验和界面设计",
     "categories": [
-      "UI/UX",
-      "平面设计",
-      "开发"
+      "设计",
+      "B端产品",
+      "创业项目"
     ],
-    "button1": "Clout Quiz",
-    "button2": "eoko",
-    "link": "进入第2页",
-    "paragraph": "我于2018年10月加入 eoko.inc，担任 UI / UX 首席设计师，并帮助构建Web应用程序 CloutQuiz App 和 eoko App 的前端开发。我们使用敏捷的工作流程，并与我们的业务和开发团队紧密结合。我的职责是设计和重新设计我们的公司品牌，组件，界面和应用程序的用户体验，并参加会议和活动。我从经验中学到并实践了设计和开发方面的新技术。",
+    "button1": "Resolver",
+    "button2": "Activate",
     "content": {
       "myrole_title": "职责",
       "myrole": "I joined eoko.inc in October 2018 as an UI / UX designer. I worked on multiple projects with team such as CloutQuiz App and eoko App. We use an agile workflow and incorporate closely with our business and development teams. My responsibility is designing and redesigning  branding, components, interfaces and user experience for the apps, and participate in the meetings and events. I learnt and practiced new technologies on both design and development aspects from the experience.",
@@ -139,18 +132,15 @@
   "busbuddy": {
     "id": 4,
     "name": "busbuddy",
-    "title": "busbuddy",
+    "title": "Busbuddy",
     "position": "UI / UX 设计师",
-    "abstract": "担任eoko.inc的首席UI / UX设计师的实习生。我正在帮助公司改善eoko应用程序和CloutQuiz应用程序的UI和UX。",
+    "abstract": "使用物联网和Web应用程序技术为低龄学生及其父母设计一套全新的校车体验，参与了原型制作与搭建前后端和树莓派RFID、Wi-Fi、GPS模块",
     "categories": [
-      "UI/UX",
-      "平面设计",
+      "界面设计",
+      "物联网",
       "开发"
     ],
-    "button1": "Clout Quiz",
-    "button2": "eoko",
-    "link": "进入第2页",
-    "paragraph": "我于2018年10月加入eoko.inc，担任UI / UX首席设计师，并帮助构建Web应用程序CloutQuiz App和eoko App的前端开发。我们使用敏捷的工作流程，并与我们的业务和开发团队紧密结合。我的职责是设计和重新设计我们的公司品牌，组件，界面和应用程序的用户体验，并参加会议和活动。我从经验中学到并实践了设计和开发方面的新技术。",
+    "button1": "案例分析",
     "content": {
       "overview_title": "概述",
       "overview": "BusBuddy是一款基于Web的系统和应用程序，专为低龄学生及其父母设计，从而优化他们的校车体验，比如节省等待时间（学生无需盲目的在公交车站等车）。 \n BusBuddy是一款通过硬件和软件间交互的解决方案，它使用物联网（IoT）的方法来消除校车在交通中的不确定性。硬件方面，该系统通过使用具有GPS和RFID传感器的树莓派（Raspberry Pi）来确认上车学生的身份、地点和时间，从而允许他们的父母在校车运营期间通过手机应用查看公交车的位置。当学生安全地上车后，BusBuddy还会向父母发送SMS通知，当校车车迟到时，还将发送带有最新预计到达时间的通知，BusBuddy应用程序中还提供了具有校车位置的实时地图。",
@@ -176,23 +166,20 @@
   "schmearit": {
     "id": 5,
     "name": "schmearit",
-    "title": "schmearit",
+    "title": "Schmear It",
     "position": "UI / UX 设计师",
-    "abstract": "担任eoko.inc的首席UI / UX设计师的实习生。我正在帮助公司改善eoko应用程序和CloutQuiz应用程序的UI和UX。",
+    "abstract": "在十周时间的设计冲刺中与Schmear It以及其客户紧密合作设计了一套全新的移动端线上点餐用户体验，并交付了高保真原型设计",
     "categories": [
       "UI/UX",
       "平面设计",
-      "开发"
+      "原型"
     ],
-    "button1": "Clout Quiz",
-    "button2": "eoko",
-    "link": "进入第2页",
-    "paragraph": "我于2018年10月加入eoko.inc，担任UI / UX首席设计师，并帮助构建Web应用程序CloutQuiz App和eoko App的前端开发。我们使用敏捷的工作流程，并与我们的业务和开发团队紧密结合。我的职责是设计和重新设计我们的公司品牌，组件，界面和应用程序的用户体验，并参加会议和活动。我从经验中学到并实践了设计和开发方面的新技术。",
+    "button1": "案例分析",
     "content": {
       "overview_title": "简概",
       "overview": "在为期十周的设计冲刺中，我们的团队与Schmear It以及其客户紧密合作创造了全新的移动端线上点餐用户体验。我们进行了初步研究，经历了多轮的设计构思和用户测试，并用Sketch和Flinto创建了最终的交互原型设计。通过此过程，我了解了协作、用户测试、团队会议以及理解业务需求的重要性。我们团队对最终的成品感到非常满意，并用户也给出了积极的态度。",
       "context&challenge_title": "背景与挑战",
-      "context&challenge": "Schmear It是成立于2013年的费城当地贝果餐车，于2016年10月扩展到门店运营。我们的团队的任务是为Schmear It的移动应用设计原型，其中包括为客户提供线上订餐，奖励机制和宣扬企业文化。此应用程序将替代其网站上现有的线上点餐系统。在这10周内，我们与Schmear It及其客户紧密合作，以测试和开发此移动应用程序。 \n 尽管Schmear It已经在其网站内置了线上点餐功能，但是其网站上并没有提供用户友好的界面来清楚地传递信息（尤其针对移动端）。我们设计目标是打造一种可用和易用的线上订餐体验，同时保留Schmear It的独特的品牌和设计语言。该应用程序还应该推广Schearm it 的 Build your own (自定制) 贝果选项和招牌菜单，同时推广于他们合作的慈善机构。",
+      "context&challenge": "Schmear It是成立于2013年的费城当地贝果餐车，于2016年10月扩展到门店运营。我们的团队的任务是为Schmear It的移动应用设计原型，其中包括为客户提供线上订餐，奖励机制和宣扬企业文化。此应用程序将替代其网站上现有的线上点餐系统。在这10周内，我们与Schmear It及其客户紧密合作，以测试和开发此移动应用程序的原型。 \n 尽管Schmear It已经在其网站内置了线上点餐功能，但是其网站上并没有提供用户友好的界面来清楚地传递信息（尤其针对移动端）。我们设计目标是打造一种可用和易用的线上订餐体验，同时保留Schmear It的独特的品牌和设计语言。该应用程序还应该推广Schearm it 的 Build your own (自定制) 贝果选项和招牌菜单，同时推广于他们合作的慈善机构。",
       "process&insight_title": "流程与洞察力",
       "process&insight1": "我们通过与Schmear It建立关系开始了设计过程。我们根据调研创建了Schmear It的业务模型画布和项目模型画布。之后，我们多次拜访餐车和餐馆去观察用户的订餐过程和Schmear It为其提供的客户体验。在此基础上，我们进行了SWOT分析、头脑风暴和制作亲和图，以此我们更加了解我们应该设计的经验。",
       "process&insight2": "除了小组活动之外，我们都与产品的目标消费者进行了接触，并与他们进行了用户访谈。我们练习并使用了一起编写的稿词和要提问的问题，并在面谈中记下了笔记。",
