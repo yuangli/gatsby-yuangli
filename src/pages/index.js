@@ -4,12 +4,15 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Card from "../components/card"
+import resume_en from "../assets/resume_yuangli.pdf"
+import resume_cn from "../assets/李雨昂简历.pdf"
 import { useTranslation } from "react-i18next"
 
 import '../styles/home.scss'
 
 const IndexPage = (props) => {
   const { t } = useTranslation();
+  const resume = t('home.resume') == "/resume_yuangli.pdf" ? resume_en : resume_cn
 
   return (
     <div className="d">
@@ -31,7 +34,7 @@ const IndexPage = (props) => {
         <div>
           <a href="mailto: yuang@yuangli.com" target="_blank"
             className="animsition-link c-cate c-cate_button c-cate_button--contactme">{t('home.contactme')}</a>
-          <a href={t('home.resume')} target="_blank"
+          <a href={resume} target="_blank"
             className="animsition-link c-cate c-cate_button c-cate_button--resume">{t('home.resume_title')}</a>
         </div>
       </div>

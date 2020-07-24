@@ -4,6 +4,9 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { useTranslation } from "react-i18next"
+import testingsReport1 from '../images/tripple_report1.png';
+import testingsReport2 from '../images/tripple_report2.png';
+
 
 import '../styles/post.scss'
 
@@ -35,7 +38,7 @@ const TripplePage = () => {
                         }
                     </ul>
                     <div className="c-title__buttons">
-                        <a target="_blank" href="https://www.etherealimmersive.art" className="c-cate c-cate_button c-cate_button--tripple">{t('tripple.button1')}</a>
+                        <a target="_blank" href="https://github.com/ethereal-immersive" className="c-cate c-cate_button c-cate_button--tripple">{t('tripple.button1')}</a>
                         <a target="_blank" href="https://youtu.be/nfxYTUdVNMA"
                             className="c-cate c-cate_button c-cate_button--tripple">{t('tripple.button2')}</a>
                     </div>
@@ -213,8 +216,12 @@ const TripplePage = () => {
                 })
                 }
                 <div className="c-flex">
-                    <iframe src={require('../images/tripple_graphic2.mp4')} title="W3Schools Free Online Web Tutorials"></iframe>
-                    <iframe src={require('../images/tripple_graphic2.mp4')} title="W3Schools Free Online Web Tutorials"></iframe>
+                    <video width="50%" height="230"
+                        loop autoPlay muted
+                        src={require('../images/tripple_graphic1.mp4')} title="tripple graphic 1"></video>
+                    <video width="50%" height="230"
+                        loop autoPlay muted
+                        src={require('../images/tripple_graphic2.mp4')} title="tripple graphic 2"></video>
                 </div>
                 {t('tripple.content.experience_title').split('\n').map(function (item, key) {
                     return (
@@ -224,6 +231,7 @@ const TripplePage = () => {
                     )
                 })
                 }
+                <img src={require('../images/tripple_uxprocess.png')} />
                 {t('tripple.content.experience_uxresearch_title').split('\n').map(function (item, key) {
                     return (
                         <h2 className="wow fadeInUp" ey={key}>
@@ -266,8 +274,18 @@ const TripplePage = () => {
                 })
                 }
                 <div className="c-flex">
-                    <img src={require('../images/tripple_testing1.png')} />
-                    <img src={require('../images/tripple_testing2.png')} />
+                    {t('tripple.content.experience_uxresearch_report1').split('\n').map(function (item, key) {
+                        return (
+                            <a target="_blank" href={testingsReport1}>{item}</a>
+                        )
+                    })
+                    }
+                    {t('tripple.content.experience_uxresearch_report2').split('\n').map(function (item, key) {
+                        return (
+                            <a target="_blank" href={testingsReport2}>{item}</a>
+                        )
+                    })
+                    }
                 </div>
                 {t('tripple.content.experience_storyboard_title').split('\n').map(function (item, key) {
                     return (
@@ -296,15 +314,16 @@ const TripplePage = () => {
                 }
                 <div className="c-flex">
                     <img src={require('../images/tripple_pluseSensorBand.jpg')} />
-                    {t('tripple.content.tech_sensor').split('\n').map(function (item, key) {
-                        return (
-                            <p className="wow fadeInUp" ey={key}>
-                                {item}
-                            </p>
-                        )
-                    })
-                    }
+                    <img src={require('../images/tripple_nano.png')} />
                 </div>
+                {t('tripple.content.tech_sensor').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
                 {t('tripple.content.tech_touchdesigner_title').split('\n').map(function (item, key) {
                     return (
                         <h2 className="wow fadeInUp" ey={key}>
@@ -354,7 +373,11 @@ const TripplePage = () => {
                     )
                 })
                 }
-                <img src={require('../images/tripple_branding.png')} />
+                <div className="c-flex">
+                    <img src={require('../images/tripple_branding1.png')} />
+                    <img src={require('../images/tripple_branding2.png')} />
+                    <img src={require('../images/tripple_branding3.jpg')} />
+                </div>
                 {t('tripple.content.prod_website_title').split('\n').map(function (item, key) {
                     return (
                         <h2 className="wow fadeInUp" ey={key}>
@@ -364,6 +387,12 @@ const TripplePage = () => {
                 })
                 }
                 <img src={require('../images/tripple_website.png')} />
+                {t('tripple.content.prod_website_link').split('\n').map(function (item, key) {
+                    return (
+                        <a target="_blank" href="https://etherealimmersive.art"> {item}</a>
+                    )
+                })
+                }
                 {t('tripple.content.conclusion_title').split('\n').map(function (item, key) {
                     return (
                         <h1 className="wow fadeInUp" ey={key}>

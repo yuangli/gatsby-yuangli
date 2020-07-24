@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { useTranslation } from "react-i18next"
+import Report from '../assets/Assessment_of_Systems_and_Solutions.pdf';
 
 import '../styles/post.scss'
 
@@ -113,6 +114,12 @@ const Gs1Page = () => {
                         <p className="wow fadeInUp" ey={key}>
                             {item}
                         </p>
+                    )
+                })
+                }
+                {t('gs1.content.highlights_ba_link').split('\n').map(function (item, key) {
+                    return (
+                        <a target="_blank" href={Report}>{item}</a>
                     )
                 })
                 }

@@ -4,6 +4,10 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { useTranslation } from "react-i18next"
+import ReflectionNote from '../assets/schmearit_lowFidTesting_reflectionNote.pdf';
+import UsabilityTestScript from '../assets/schmearit_usabilityTestScript.pdf';
+// import HighFideltiyPrototype from '../assets/resume_yuangli.pdf';
+// import HighFideltiyPrototype from '../assets/schmearit-HighFideltiyPrototype.zip';
 
 import '../styles/post.scss'
 
@@ -136,7 +140,13 @@ const SchmearItPage = () => {
                     )
                 })
                 }
-                <div className="c-flex">
+                {t('schmearit.content.UsabilityTestScript').split('\n').map(function (item, key) {
+                    return (
+                        <a target="_blank" href={UsabilityTestScript}>{item}</a>
+                    )
+                })
+                }
+                <div className="c-flex c-margin-top">
                     <img src={require('../images/schmearit_paperproto.png')} />
                     <img src={require('../images/schmearit_papertesting.jpg')} />
                 </div>
@@ -149,6 +159,12 @@ const SchmearItPage = () => {
                 })
                 }
                 <img src={require('../images/schmearit_hifi-testing.png')} />
+                {t('schmearit.content.ReflectionNote').split('\n').map(function (item, key) {
+                    return (
+                        <a target="_blank" href={ReflectionNote}>{item}</a>
+                    )
+                })
+                }
                 {t('schmearit.content.solution_title').split('\n').map(function (item, key) {
                     return (
                         <h1 className="wow fadeInUp" ey={key}>
@@ -184,6 +200,12 @@ const SchmearItPage = () => {
                     )
                 })
                 }
+                {t('schmearit.content.solution_flinto-link').split('\n').map(function (item, key) {
+                    return (
+                        <a target="_blank" href="https://yuangli.com/schmearit-HighFideltiyPrototype.zip"> {item}</a>
+                    )
+                })
+                }
                 {t('schmearit.content.result_title').split('\n').map(function (item, key) {
                     return (
                         <h1 className="wow fadeInUp" ey={key}>
@@ -203,7 +225,7 @@ const SchmearItPage = () => {
             </div>
             {/* <Link to="/">{t('page2.link')}</Link> */}
             {/* <p>{t('schmearit.paragraph')}</p> */}
-        </div>
+        </div >
     )
 }
 export default SchmearItPage

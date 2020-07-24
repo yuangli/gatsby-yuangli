@@ -36,6 +36,7 @@ const BusbuddyPage = () => {
                     </ul>
                     <div className="c-title__buttons">
                         <a target="_blank" href="https://digm.drexel.edu/idm/2019/03/20/bus-buddy/" className="c-cate c-cate_button c-cate_button--busbuddy">{t('busbuddy.button1')}</a>
+                        <a target="_blank" href="https://github.com/yuangli/busbuddy" className="c-cate c-cate_button c-cate_button--busbuddy">{t('busbuddy.button2')}</a>
                     </div>
                 </div>
             </div>
@@ -97,16 +98,6 @@ const BusbuddyPage = () => {
                     )
                 })
                 }
-                <ol>
-                    {t('busbuddy.content.process&insight_2_2').split('\n').map(function (item, key) {
-                        return (
-                            <li ey={key}>
-                                {item}
-                            </li>
-                        )
-                    })
-                    }
-                </ol>
                 {t('busbuddy.content.process&insight_3_title').split('\n').map(function (item, key) {
                     return (
                         <h1 className="wow fadeInUp" ey={key}>
@@ -154,10 +145,16 @@ const BusbuddyPage = () => {
                     <img src={require('../images/busbuddy_high-fi-prototype1.gif')} className="c-title-image wow fadeInUp" />
                     <img src={require('../images/busbuddy_high-fi-prototype2.gif')} className="c-title-image wow fadeInUp" />
                 </div>
-                <div className="c-flex--flex c-flex--busbuddyPrototype2">
+                <div className="c-flex--flex c-flex--busbuddyPrototype2 c-margin-bottom">
                     <img src={require('../images/busbuddy_high-fi-prototype3.gif')} className="c-title-image wow fadeInUp" />
                     <img src={require('../images/busbuddy_high-fi-prototype4.gif')} className="c-title-image wow fadeInUp" />
                 </div>
+                {t('busbuddy.content.flintoLink').split('\n').map(function (item, key) {
+                    return (
+                        <a target="_blank" href="https://yuangli.com/busbuddy-HighFideltiyPrototype.zip"> {item}</a>
+                    )
+                })
+                }
                 {t('busbuddy.content.development_title').split('\n').map(function (item, key) {
                     return (
                         <h1 className="wow fadeInUp" ey={key}>

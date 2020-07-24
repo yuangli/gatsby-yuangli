@@ -19,7 +19,7 @@
     margin-top: 4rem;
 }
 
-.l-decription > p{
+.l-decription > p, a{
     line-height: 1.5;
     margin-bottom: 3rem;
 }
@@ -39,6 +39,14 @@
 
 .l-decription img{
     margin-bottom: 4rem;
+}
+
+.c-margin-top{
+    margin-top: 3rem;
+}
+
+.c-margin-bottom{
+    margin-bottom: 3rem;
 }
 
 .c-feature{
