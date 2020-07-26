@@ -4,6 +4,9 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { useTranslation } from "react-i18next"
+import VisualStyleGuide from '../assets/busbuddy_visualStyleGuide.pdf';
+import LanguageStyleGuide from '../assets/busbuddy_languageStyleGuide.png';
+
 
 import '../styles/post.scss'
 
@@ -132,6 +135,20 @@ const BusbuddyPage = () => {
                 })
                 }
                 <img src={require('../images/busbuddy_styleguide.png')} className="c-title-image wow fadeInUp" />
+                <div className="c-flex c-flex--links">
+                    {t('busbuddy.content.process&insight_4_visuallink').split('\n').map(function (item, key) {
+                        return (
+                            <a target="_blank" href={VisualStyleGuide}>{item}</a>
+                        )
+                    })
+                    }
+                    {t('busbuddy.content.process&insight_4_languagelink').split('\n').map(function (item, key) {
+                        return (
+                            <a target="_blank" href={LanguageStyleGuide}>{item}</a>
+                        )
+                    })
+                    }
+                </div>
                 {t('busbuddy.content.process&insight_5_title').split('\n').map(function (item, key) {
                     return (
                         <h1 className="wow fadeInUp" ey={key}>
@@ -149,12 +166,6 @@ const BusbuddyPage = () => {
                     <img src={require('../images/busbuddy_high-fi-prototype3.gif')} className="c-title-image wow fadeInUp" />
                     <img src={require('../images/busbuddy_high-fi-prototype4.gif')} className="c-title-image wow fadeInUp" />
                 </div>
-                {t('busbuddy.content.flintoLink').split('\n').map(function (item, key) {
-                    return (
-                        <a target="_blank" href="https://yuangli.com/busbuddy-HighFideltiyPrototype.zip"> {item}</a>
-                    )
-                })
-                }
                 {t('busbuddy.content.development_title').split('\n').map(function (item, key) {
                     return (
                         <h1 className="wow fadeInUp" ey={key}>
@@ -196,6 +207,7 @@ const BusbuddyPage = () => {
                     )
                 })
                 }
+                <img src={require('../images/busbuddy_result.jpg')} className="c-title-image wow fadeInUp" />
                 {t('busbuddy.content.solution').split('\n').map(function (item, key) {
                     return (
                         <p className="wow fadeInUp" ey={key}>

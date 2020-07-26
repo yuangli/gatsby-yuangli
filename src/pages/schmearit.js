@@ -202,7 +202,7 @@ const SchmearItPage = () => {
                 }
                 {t('schmearit.content.solution_flinto-link').split('\n').map(function (item, key) {
                     return (
-                        <a target="_blank" href="https://yuangli.com/schmearit-HighFideltiyPrototype.zip"> {item}</a>
+                        <a target="_blank" href="https://www.icloud.com/iclouddrive/0i7kGqRk6cVK_Zvi17sY5WiLQ#schmearit-HighFideltiyPrototype"> {item}</a>
                     )
                 })
                 }

@@ -37,7 +37,7 @@
     margin-bottom: 1rem;
 }
 
-.l-decription img{
+.l-decription img, video{
     margin-bottom: 4rem;
 }
 
@@ -92,6 +92,13 @@
     }
 }
 
+.c-flex--links{
+    margin-bottom: 3rem;
+}
+
+.c-flex--links > a{
+    margin-right: 1rem;
+}
 
 .c-flex--flex{
     display: flex;
@@ -383,7 +390,7 @@
             padding-left: .5rem;
         }
 
-       & > img {
+       & > img, video {
            width: 50%;
            height: 100%;
        }

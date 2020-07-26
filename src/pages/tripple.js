@@ -216,10 +216,10 @@ const TripplePage = () => {
                 })
                 }
                 <div className="c-flex">
-                    <video width="50%" height="230"
+                    <video width="100%" height="230"
                         loop autoPlay muted
                         src={require('../images/tripple_graphic1.mp4')} title="tripple graphic 1"></video>
-                    <video width="50%" height="230"
+                    <video width="100%" height="230"
                         loop autoPlay muted
                         src={require('../images/tripple_graphic2.mp4')} title="tripple graphic 2"></video>
                 </div>
@@ -273,7 +273,7 @@ const TripplePage = () => {
                     )
                 })
                 }
-                <div className="c-flex">
+                <div className="c-flex c-flex--links">
                     {t('tripple.content.experience_uxresearch_report1').split('\n').map(function (item, key) {
                         return (
                             <a target="_blank" href={testingsReport1}>{item}</a>
@@ -365,7 +365,7 @@ const TripplePage = () => {
                     )
                 })
                 }
-                {t('tripple.content.prod_branding_title').split('\n').map(function (item, key) {
+                {t('tripple.content.prod_marketing_title').split('\n').map(function (item, key) {
                     return (
                         <h2 className="wow fadeInUp" ey={key}>
                             {item}
@@ -374,9 +374,8 @@ const TripplePage = () => {
                 })
                 }
                 <div className="c-flex">
-                    <img src={require('../images/tripple_branding1.png')} />
-                    <img src={require('../images/tripple_branding2.png')} />
-                    <img src={require('../images/tripple_branding3.jpg')} />
+                    <img src={require('../images/tripple_marketing1.png')} />
+                    <img src={require('../images/tripple_marketing2.png')} />
                 </div>
                 {t('tripple.content.prod_website_title').split('\n').map(function (item, key) {
                     return (
