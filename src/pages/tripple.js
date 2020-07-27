@@ -6,6 +6,8 @@ import SEO from "../components/seo"
 import { useTranslation } from "react-i18next"
 import testingsReport1 from '../images/tripple_report1.png';
 import testingsReport2 from '../images/tripple_report2.png';
+import StyleGuide from '../assets/tripple_styleGuide.pdf';
+import Storyboard from '../assets/tripple_storyboard.pdf';
 
 
 import '../styles/post.scss'
@@ -199,15 +201,21 @@ const TripplePage = () => {
                     )
                 })
                 }
+                {t('tripple.content.creativeProcess_aesthetic_styleguide_link').split('\n').map(function (item, key) {
+                    return (
+                        <a target="_blank" href={StyleGuide}>{item}</a>
+                    )
+                })
+                }
                 {t('tripple.content.creativeProcess_aesthetic_graphic_title').split('\n').map(function (item, key) {
                     return (
-                        <h3 className="wow fadeInUp" ey={key}>
+                        <h3 className="wow fadeInUp c-margin-top" ey={key}>
                             {item}
                         </h3>
                     )
                 })
                 }
-                {t('tripple.content.creativeProcess_aesthetic_graphic').split('\n').map(function (item, key) {
+                {t('tripple.content.creativeProcess_aesthetic_graphic_1').split('\n').map(function (item, key) {
                     return (
                         <p className="wow fadeInUp" ey={key}>
                             {item}
@@ -216,13 +224,21 @@ const TripplePage = () => {
                 })
                 }
                 <div className="c-flex">
-                    <video width="100%" height="230"
+                    <video width="100%" height="100%"
                         loop autoPlay muted
                         src={require('../images/tripple_graphic1.mp4')} title="tripple graphic 1"></video>
-                    <video width="100%" height="230"
+                    <video width="100%" height="100%"
                         loop autoPlay muted
                         src={require('../images/tripple_graphic2.mp4')} title="tripple graphic 2"></video>
                 </div>
+                {t('tripple.content.creativeProcess_aesthetic_graphic_2').split('\n').map(function (item, key) {
+                    return (
+                        <p className="wow fadeInUp" ey={key}>
+                            {item}
+                        </p>
+                    )
+                })
+                }
                 {t('tripple.content.experience_title').split('\n').map(function (item, key) {
                     return (
                         <h1 className="wow fadeInUp" ey={key}>
@@ -231,7 +247,6 @@ const TripplePage = () => {
                     )
                 })
                 }
-                <img src={require('../images/tripple_uxprocess.png')} />
                 {t('tripple.content.experience_uxresearch_title').split('\n').map(function (item, key) {
                     return (
                         <h2 className="wow fadeInUp" ey={key}>
@@ -296,6 +311,12 @@ const TripplePage = () => {
                 })
                 }
                 <img src={require('../images/tripple_storyboard.png')} />
+                {t('tripple.content.experience_storyboard_link').split('\n').map(function (item, key) {
+                    return (
+                        <a target="_blank" href={Storyboard}>{item}</a>
+                    )
+                })
+                }
                 {t('tripple.content.tech_title').split('\n').map(function (item, key) {
                     return (
                         <h1 className="wow fadeInUp" ey={key}>
@@ -304,6 +325,7 @@ const TripplePage = () => {
                     )
                 })
                 }
+
                 {t('tripple.content.tech_sensor_title').split('\n').map(function (item, key) {
                     return (
                         <h2 className="wow fadeInUp" ey={key}>
