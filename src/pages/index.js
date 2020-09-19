@@ -10,6 +10,8 @@ import { useTranslation } from "react-i18next"
 
 import '../styles/home.scss'
 
+require('../images/wechat_qr.jpg')
+
 const IndexPage = (props) => {
   const { t } = useTranslation();
   const resume = t('home.resume') == "/resume_yuangli.pdf" ? resume_en : resume_cn
