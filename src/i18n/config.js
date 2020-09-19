@@ -1,7 +1,7 @@
 import i18next from 'i18next';
 
 i18next.init({
-    fallbackLng: 'en',
+    fallbackLng: 'cn',
     resources: {
         'cn': {
             translations: require('../locales/cn/translations.json')
