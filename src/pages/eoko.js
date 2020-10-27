@@ -103,7 +103,7 @@ const EokoPage = () => {
                         })
                         }
                     </div>
-                    <img className="c-feature__2-image" src={require('../images/eoko_homebase.png')} />
+                    <img className="c-feature__2-image" src={require('../images/eoko_new_event.png')} />
                     <div class="c-feature__2-text wow fadeInUp">
                         <h3 class="c-feature--step wow fadeInUp">2</h3>
                         {t('eoko.content.deliverable2_title').split('\n').map(function (item, key) {
@@ -123,7 +123,7 @@ const EokoPage = () => {
                         })
                         }
                     </div>
-                    <img className="c-feature__3-image" src={require('../images/eoko_homebase.png')} />
+                    <img className="c-feature__3-image" src={require('../images/eoko_new_booking.png')} />
                     <div class="c-feature__3-text wow fadeInUp">
                         <h3 class="c-feature--step wow fadeInUp">3</h3>
                         {t('eoko.content.deliverable3_title').split('\n').map(function (item, key) {
@@ -143,7 +143,7 @@ const EokoPage = () => {
                         })
                         }
                     </div>
-                    <img className="c-feature__4-image" src={require('../images/eoko_homebase.png')} />
+                    <img className="c-feature__4-image" src={require('../images/eoko_new_market.png')} />
                     <div class="c-feature__4-text wow fadeInUp">
                         <h3 class="c-feature--step wow fadeInUp">4</h3>
                         {t('eoko.content.deliverable4_title').split('\n').map(function (item, key) {
