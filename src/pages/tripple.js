@@ -4,8 +4,8 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { useTranslation } from "react-i18next"
-import testingsReport1 from '../images/tripple_report1.png';
-import testingsReport2 from '../images/tripple_report2.png';
+import testingsReport1 from '../assets/tripple_report1.png';
+import testingsReport2 from '../assets/tripple_report2.png';
 import StyleGuide from '../assets/tripple_styleGuide.pdf';
 import Storyboard from '../assets/tripple_storyboard.pdf';
 
